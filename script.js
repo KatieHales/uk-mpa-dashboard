@@ -49,9 +49,39 @@ async function loadCSVData() {
         console.log('MPA data loaded:', mpaData.length, 'items');
 
         // Add markers for MPAs
-        mpaData.forEach(mpa => {
-            if (mpa.latitude && mpa.longitude) {
-                const marker = L.marker([parseFloat(mpa.latitude), parseFloat(mpa.longitude)], {
+        let processedCount = 0;
+        let skippedCount = 0;
+
+        mpaData.forEach((mpa, index) => {
+            let lat, lng, name, type, status, agency, siteName, area, designationDate;
+
+            // Check if this is the new format (starts with UK code)
+            if (mpa.name && mpa.name.startsWith('UK')) {
+                // New format: UK0030317,Darwin Mounds,SAC,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,137726,-7.2167,59.7583,01-08-2008,JNCC,555536199
+                lng = parseFloat(mpa.longitude); // Column 7: longitude
+                lat = parseFloat(mpa.latitude);  // Column 8: latitude
+                name = mpa.name; // Column 1: UK code
+                siteName = mpa.type; // Column 2: actual site name
+                type = mpa.status; // Column 3: SAC/MCZ etc
+                status = 'Designated'; // Assume designated
+                agency = mpa.agency; // Column 10: JNCC
+                area = mpa.area_km2; // Column 6: area
+                designationDate = mpa.designation_year; // Column 9: date
+            } else {
+                // Original format
+                lat = parseFloat(mpa.latitude);
+                lng = parseFloat(mpa.longitude);
+                name = mpa.name;
+                type = mpa.type;
+                status = mpa.status;
+                agency = mpa.agency;
+                siteName = mpa.site_name;
+                area = mpa.area_km2;
+                designationDate = mpa.designation_year;
+            }
+
+            if (lat && lng && !isNaN(lat) && !isNaN(lng)) {
+                const marker = L.marker([lat, lng], {
                     icon: L.icon({
                         iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -63,16 +93,22 @@ async function loadCSVData() {
                 });
 
                 marker.addTo(mpaLayer).bindPopup(`
-                    <b>${mpa.name}</b><br>
-                    <strong>Site Name:</strong> ${mpa.site_name || mpa.name}<br>
-                    <strong>Type:</strong> ${mpa.type}<br>
-                    <strong>Status:</strong> ${mpa.status}<br>
-                    <strong>Agency:</strong> ${mpa.agency}<br>
-                    <strong>Area:</strong> ${mpa.area_km2} km²<br>
-                    <strong>Designated:</strong> ${mpa.designation_year}
+                    <b>${siteName || name}</b><br>
+                    <strong>Site Code:</strong> ${name}<br>
+                    <strong>Type:</strong> ${type}<br>
+                    <strong>Status:</strong> ${status}<br>
+                    <strong>Agency:</strong> ${agency}<br>
+                    <strong>Area:</strong> ${area} km²<br>
+                    <strong>Designated:</strong> ${designationDate}
                 `);
+                processedCount++;
+            } else {
+                console.log(`Skipped row ${index + 1}:`, mpa.name, 'lat:', lat, 'lng:', lng, 'isNaN(lat):', isNaN(lat), 'isNaN(lng):', isNaN(lng));
+                skippedCount++;
             }
         });
+
+        console.log(`MPA processing complete: ${processedCount} processed, ${skippedCount} skipped`);
 
         console.log('CSV data loaded successfully');
 

@@ -6,6 +6,9 @@ Marine Protected Area Dashboard - For consenting decisions
 - Protected features visualization with status indicators
 - Layer controls to toggle different data types
 - CSV-driven data loading for easy updates
+- **92+ UK offshore MPAs** with detailed site information
+- Agency information (JNCC, Natural England)
+- Designation dates and protection reasons
 
 ## Data Sources
 - `protected_features.csv`: Point data for protected marine features
@@ -27,14 +30,14 @@ Marine Protected Area Dashboard - For consenting decisions
 - protection_reason: Detailed reason for protection
 
 ### UK Offshore MPA CSV
-- name: MPA name
-- type: Protection type
+- name: MPA name or site code (UK0030317 format)
+- type: Protection type (SAC, MCZ, NCMPA)
 - status: Current status
-- latitude/longitude: Representative coordinates
+- latitude/longitude: Geographic coordinates (note: some entries have lng/lat swapped)
 - area_km2: Area in square kilometers
-- designation_year: Year designated
+- designation_year/date: When designated
 - agency: Responsible agency (JNCC, Natural England, etc.)
-- site_name: Official site name
+- site_name: Official site name (when available)
 - latitude/longitude: Representative coordinates
 - area_km2: Area in square kilometers
 - designation_year: Year designated
