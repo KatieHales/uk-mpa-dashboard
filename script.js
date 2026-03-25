@@ -120,19 +120,25 @@ async function loadCSVData() {
                     // Look up coordinates using site code
                     if (mpaCoordinates[siteCode]) {
                         const coords = mpaCoordinates[siteCode];
-                        const marker = L.circleMarker([coords.lat, coords.lng], {
+                        
+                        // Add a small random offset so overlapping features are visible
+                        const offset = 0.01;
+                        const randomLat = coords.lat + (Math.random() - 0.5) * offset;
+                        const randomLng = coords.lng + (Math.random() - 0.5) * offset;
+                        
+                        const marker = L.circleMarker([randomLat, randomLng], {
                             color: 'green',
                             fillColor: 'lightgreen',
                             fillOpacity: 0.7,
-                            radius: 6
+                            radius: 5
                         });
 
                         marker.addTo(protectedFeaturesLayer).bindPopup(`
                             <b>${siteName}</b><br>
                             <strong>Site Code:</strong> ${siteCode}<br>
                             <strong>Status:</strong> ${status}<br>
-                            <strong>Feature:</strong> ${featureName}<br>
-                            <em>Protected Feature</em>
+                            <strong>Feature Type:</strong> ${featureType}<br>
+                            <strong>Protected Feature:</strong> ${featureName}
                         `);
                         featuresCount++;
                     }
