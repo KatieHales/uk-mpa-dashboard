@@ -15,7 +15,7 @@ async function loadCSVData() {
     try {
         // Load and parse UK offshore MPA CSV first (to get coordinates)
         console.log('Loading MPA CSV...');
-        const mpaResponse = await fetch('uk_offshore_mpa.csv');
+        const mpaResponse = await fetch('Uk_offshore_mpa.csv.csv');
         const mpaText = await mpaResponse.text();
         const mpaLines = mpaText.split('\n');
         
@@ -36,29 +36,17 @@ async function loadCSVData() {
                 parts = line.split(',').map(p => p.trim());
             }
             
-            if (parts.length >= 2) {
+            if (parts.length >= 8) {
                 try {
                     const name = parts[0];
-                    let type = parts[1] || '';
-                    let lat = null;
-                    let lng = null;
+                    let type = parts[2] || '';
+                    const lng = parseFloat(parts[6]); // Longitude
+                    const lat = parseFloat(parts[7]); // Latitude
                     
-                    // Look for coordinates - search for two consecutive valid numbers
-                    // that form a valid lat/lng pair
-                    for (let j = 0; j < parts.length - 1; j++) {
-                        const val1 = parseFloat(parts[j]);
-                        const val2 = parseFloat(parts[j + 1]);
+                    if (!isNaN(lat) && !isNaN(lng) &&
+                        lat >= -90 && lat <= 90 &&
+                        lng >= -180 && lng <= 180) {
                         
-                        if (!isNaN(val1) && !isNaN(val2) &&
-                            val1 >= -90 && val1 <= 90 &&
-                            val2 >= -180 && val2 <= 180) {
-                            lat = val1;
-                            lng = val2;
-                            break;
-                        }
-                    }
-                    
-                    if (lat !== null && lng !== null) {
                         // Store coordinates by site code for later lookup
                         mpaCoordinates[name] = { lat, lng, type };
                         
