@@ -20,6 +20,9 @@ const windmillIcon = L.divIcon({
     popupAnchor: [0, -20]
 });
 
+const WIND_SPEED_CACHE_TTL_MS = 5 * 60 * 1000;
+const windSpeedCache = new Map();
+
 // DMS (degrees/minutes/seconds) parser for coordinate text such as "53°59′00″N 3°17′00″W"
 function parseDMS(value) {
     if (!value || typeof value !== 'string') return null;
@@ -119,23 +122,79 @@ function createPolygonFromArea(lat, lng, areaHa) {
 
 // Function to fetch and display live generation data
 async function loadGenerationData() {
+    const generationUrls = [
+        'https://api.neso.energy/api/3/action/datastore_search?resource_id=f93d1835-75bc-43e5-84ad-12472b180a98&limit=1&sort=_id%20desc',
+        'https://api.nationalgrideso.com/api/3/action/datastore_search?resource_id=f93d1835-75bc-43e5-84ad-12472b180a98&limit=1&sort=_id%20desc'
+    ];
+
     try {
-        const response = await fetch('https://api.nationalgrideso.com/api/3/action/datastore_search?resource_id=f93d1835-75bc-49aa-97c3-1d3bd496d2&limit=1&sort=_id desc');
-        const data = await response.json();
-        const record = data.result.records[0];
-        if (record && record.OFFSHORE_WIND !== undefined) {
-            const offshoreWind = parseFloat(record.OFFSHORE_WIND) || 0;
-            // Update info control
-            if (infoControl) {
-                infoControl.update({ offshoreWind: offshoreWind.toFixed(1) });
+        console.log('Fetching generation data...');
+        let data = null;
+
+        for (const url of generationUrls) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) continue;
+                const maybeData = await response.json();
+                if (maybeData && maybeData.success && maybeData.result && Array.isArray(maybeData.result.records)) {
+                    data = maybeData;
+                    break;
+                }
+            } catch (e) {
+                // Try next endpoint
             }
         }
+
+        const records = data && data.result ? data.result.records : [];
+        const record = records.length ? records[0] : null;
+        const windValueRaw = record
+            ? record.OFFSHORE_WIND ?? record.offshore_wind_power_mw ?? record.WIND ?? record.wind_power_mw
+            : null;
+        const sourceTimestamp = record && record.DATETIME ? new Date(record.DATETIME) : null;
+        const updatedAt = sourceTimestamp && !isNaN(sourceTimestamp.getTime())
+            ? sourceTimestamp.toLocaleString()
+            : new Date().toLocaleString();
+
+        if (windValueRaw !== null && windValueRaw !== undefined && !isNaN(parseFloat(windValueRaw))) {
+            const offshoreWind = parseFloat(windValueRaw);
+            if (infoControl) infoControl.update({ offshoreWind: offshoreWind.toFixed(1), updatedAt });
+            return;
+        }
+
+        if (infoControl) infoControl.update({ offshoreWind: 'Unavailable', updatedAt });
     } catch (error) {
         console.error('Error loading generation data:', error);
+        if (infoControl) infoControl.update({ offshoreWind: 'Unavailable', updatedAt: new Date().toLocaleString() });
     }
 }
 
-// Function to load CSV data
+// Function to fetch wind speed for a location
+async function fetchWindSpeed(lat, lng) {
+    const cacheKey = `${lat.toFixed(3)},${lng.toFixed(3)}`;
+    const cached = windSpeedCache.get(cacheKey);
+    if (cached && cached.expiresAt > Date.now()) {
+        return cached.value;
+    }
+
+    try {
+        const openMeteoResponse = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current=wind_speed_10m`);
+        if (openMeteoResponse.ok) {
+            const openMeteoData = await openMeteoResponse.json();
+            const speed = openMeteoData && openMeteoData.current ? openMeteoData.current.wind_speed_10m : null;
+            if (speed !== null && speed !== undefined && !isNaN(parseFloat(speed))) {
+                const value = `${parseFloat(speed).toFixed(1)} m/s`;
+                windSpeedCache.set(cacheKey, { value, expiresAt: Date.now() + WIND_SPEED_CACHE_TTL_MS });
+                return value;
+            }
+        }
+
+        windSpeedCache.set(cacheKey, { value: 'N/A', expiresAt: Date.now() + 60 * 1000 });
+        return 'N/A';
+    } catch (error) {
+        console.error('Error fetching wind speed:', error);
+        return 'Error';
+    }
+}
 async function loadCSVData() {
     try {
         // Load and parse UK offshore MPA CSV first (to get coordinates)
@@ -294,12 +353,13 @@ async function loadCSVData() {
         const windLines = windText.split('\n');
 
         let windCount = 0;
+        let apiDelay = 0; // Delay for API calls to avoid rate limits
         const windHeader = windLines[0] ? parseCSVLine(windLines[0]).map(h => h.trim().toLowerCase()) : [];
         const locIdx = windHeader.findIndex(h => h.includes('location'));
         const nameIdx = windHeader.findIndex(h => h.includes('name'));
         const capacityIdx = windHeader.findIndex(h => h.includes('capacity') && !h.includes('factor'));
         const turbineIdx = windHeader.findIndex(h => h.includes('turbine') && !h.includes('model'));
-        const buildCostIdx = windHeader.findIndex(h => h.includes('build') && h.includes('cost'));
+        const buildCostIdx = windHeader.findIndex(h => h === 'build' || h.includes('build') || h.includes('cost'));
         const ownerIdx = windHeader.findIndex(h => h.includes('owner'));
 
         for (let i = 1; i < windLines.length; i++) {
@@ -323,14 +383,34 @@ async function loadCSVData() {
                 icon: windmillIcon
             });
 
-            windMarker.addTo(windFarmsLayer).bindPopup(`
+            // Initial popup content
+            windMarker.bindPopup(`
                 <b>${name}</b><br>
                 <strong>Capacity:</strong> ${capacity} MW<br>
                 <strong>Turbine Manufacturer:</strong> ${turbine}<br>
                 <strong>Build Cost:</strong> ${buildCost}<br>
                 <strong>Owner:</strong> ${owner}<br>
+                <strong>Current Wind Speed:</strong> Loading...<br>
                 <strong>Location:</strong> ${location}
             `);
+
+            windMarker.addTo(windFarmsLayer);
+
+            // Fetch wind speed with delay to avoid rate limits
+            setTimeout(async () => {
+                const windSpeed = await fetchWindSpeed(coords.lat, coords.lng);
+                windMarker.setPopupContent(`
+                    <b>${name}</b><br>
+                    <strong>Capacity:</strong> ${capacity} MW<br>
+                    <strong>Turbine Manufacturer:</strong> ${turbine}<br>
+                    <strong>Build Cost:</strong> ${buildCost}<br>
+                    <strong>Owner:</strong> ${owner}<br>
+                    <strong>Current Wind Speed:</strong> ${windSpeed}<br>
+                    <strong>Location:</strong> ${location}
+                `);
+            }, apiDelay);
+
+            apiDelay += 300; // Stagger calls to avoid bursts
             windCount++;
         }
         console.log('Offshore wind farms added to map:', windCount);
@@ -367,7 +447,7 @@ legend.onAdd = function (map) {
                 <span style="font-size: 12px;">Protected Features</span>
             </div>
             <div style="display: flex; align-items: center; margin-top: 5px;">
-                <span style="font-size: 18px; margin-right: 8px;">🌬️</span>
+                <div class="windmill" style="margin-right: 8px;"><div class="blades"></div></div>
                 <span style="font-size: 12px;">Offshore Wind Farms</span>
             </div>
         </div>
@@ -391,8 +471,9 @@ infoControl.update = function (props) {
         <div style="background: white; padding: 10px; border: 2px solid rgba(0,0,0,0.2); border-radius: 5px;">
             <h4 style="margin: 0 0 10px 0; font-size: 14px;">Live Generation Data</h4>
             <div style="font-size: 12px;">
-                <strong>Offshore Wind:</strong> ${props ? props.offshoreWind : 'Loading...'} MW<br>
-                <em>Data from National Grid ESO</em>
+                <strong>Wind Generation:</strong> ${props ? (props.offshoreWind || 'Error') : 'Loading...'} MW<br>
+                <strong>Last Updated:</strong> ${props ? (props.updatedAt || 'Loading...') : 'Loading...'}<br>
+                <em>Data from NESO</em>
             </div>
         </div>
     `;
