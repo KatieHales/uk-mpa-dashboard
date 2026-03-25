@@ -4,9 +4,69 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.page-header {
+    padding: 14px 18px 12px;
+    border-bottom: 1px solid #d7dee8;
+    background: linear-gradient(120deg, #f2f7ff 0%, #e9fff7 100%);
+}
+
+.page-header h1 {
+    margin: 0 0 6px;
+    font-size: 1.2rem;
+    color: #0e2f4f;
+}
+
+.page-header p {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.4;
+    color: #294a63;
+    max-width: 980px;
+}
+
+.page-header .share-url {
+    margin-top: 6px;
+    font-size: 0.86rem;
+    color: #1f425a;
+}
+
+.page-header .share-url a {
+    color: #0b5c85;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.page-header .share-url a:hover {
+    text-decoration: underline;
+}
+
 #map {
-    height: 100vh;
-    width: 100vw;
+    height: calc(100vh - 130px);
+    min-height: 420px;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .page-header {
+        padding: 12px;
+    }
+
+    .page-header h1 {
+        font-size: 1.02rem;
+    }
+
+    .page-header p {
+        font-size: 0.84rem;
+    }
+
+    .page-header .share-url {
+        font-size: 0.8rem;
+    }
+
+    #map {
+        height: calc(100vh - 160px);
+        min-height: 360px;
+    }
 }
 
 /* Legend styling */

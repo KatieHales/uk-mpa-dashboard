@@ -1,6 +1,10 @@
 # uk-mpa-dashboard
 Marine Protected Area Dashboard - For consenting decisions
 
+## Live Dashboard
+Share this URL:
+https://katiehales.github.io/uk-mpa-dashboard/
+
 ## Features
 - Interactive map displaying UK Marine Protected Areas (MPAs)
 - Protected features visualization with status indicators
@@ -15,7 +19,7 @@ Marine Protected Area Dashboard - For consenting decisions
 - `uk_offshore_mpa.csv`: UK offshore Marine Protected Area locations
 
 ## Usage
-1. Open `index.html` in a web browser
+1. Open the live dashboard URL above, or run locally by opening `index.html` in a web browser
 2. Use the layer control in the top-right to toggle data layers
 3. Click on markers to view detailed information
 
