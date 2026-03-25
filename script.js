@@ -89,6 +89,52 @@ function parseCSVLine(line) {
     return result.map(cell => cell.trim());
 }
 
+// Create approximate circular polygon from area and center coordinates
+function createPolygonFromArea(lat, lng, areaHa) {
+    if (!areaHa || isNaN(areaHa) || areaHa <= 0) return null;
+    
+    // Convert hectares to square meters
+    const areaM2 = areaHa * 10000;
+    
+    // Calculate radius in meters: r = sqrt(area / π)
+    const radiusM = Math.sqrt(areaM2 / Math.PI);
+    
+    // Approximate conversion: 1 degree ≈ 111,000 meters at equator
+    // This is rough but gives reasonable visual representation
+    const radiusDegrees = radiusM / 111000;
+    
+    // Create circular polygon with 32 points
+    const points = [];
+    const numPoints = 32;
+    
+    for (let i = 0; i < numPoints; i++) {
+        const angle = (i / numPoints) * 2 * Math.PI;
+        const pointLat = lat + radiusDegrees * Math.cos(angle);
+        const pointLng = lng + radiusDegrees * Math.sin(angle);
+        points.push([pointLat, pointLng]);
+    }
+    
+    return points;
+}
+
+// Function to fetch and display live generation data
+async function loadGenerationData() {
+    try {
+        const response = await fetch('https://api.nationalgrideso.com/api/3/action/datastore_search?resource_id=f93d1835-75bc-49aa-97c3-1d3bd496d2&limit=1&sort=_id desc');
+        const data = await response.json();
+        const record = data.result.records[0];
+        if (record && record.OFFSHORE_WIND !== undefined) {
+            const offshoreWind = parseFloat(record.OFFSHORE_WIND) || 0;
+            // Update info control
+            if (infoControl) {
+                infoControl.update({ offshoreWind: offshoreWind.toFixed(1) });
+            }
+        }
+    } catch (error) {
+        console.error('Error loading generation data:', error);
+    }
+}
+
 // Function to load CSV data
 async function loadCSVData() {
     try {
@@ -119,6 +165,7 @@ async function loadCSVData() {
                 try {
                     const name = parts[0];
                     let type = parts[2] || '';
+                    const areaHa = parseFloat(parts[5]); // Area in hectares
                     const lng = parseFloat(parts[6]); // Longitude
                     const lat = parseFloat(parts[7]); // Latitude
                     const agency = parts[9] || ''; // Agency
@@ -130,23 +177,45 @@ async function loadCSVData() {
                         // Store coordinates by site code for later lookup
                         mpaCoordinates[name] = { lat, lng, type };
                         
-                        const marker = L.marker([lat, lng], {
-                            icon: L.icon({
-                                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
-                                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                iconSize: [25, 41],
-                                iconAnchor: [12, 41],
-                                popupAnchor: [1, -34],
-                                shadowSize: [41, 41]
-                            })
-                        });
+                        // Create polygon from area and center coordinates
+                        const polygonPoints = createPolygonFromArea(lat, lng, areaHa);
+                        
+                        if (polygonPoints) {
+                            const polygon = L.polygon(polygonPoints, {
+                                color: 'blue',
+                                fillColor: '#3388ff',
+                                fillOpacity: 0.3,
+                                weight: 2
+                            });
 
-                        marker.addTo(mpaLayer).bindPopup(`
-                            <b>${name}</b><br>
-                            <strong>Type:</strong> ${type}<br>
-                            <strong>Agency:</strong> ${agency}<br>
-                            <em>UK Offshore MPA</em>
-                        `);
+                            polygon.addTo(mpaLayer).bindPopup(`
+                                <b>${name}</b><br>
+                                <strong>Type:</strong> ${type}<br>
+                                <strong>Area:</strong> ${areaHa ? areaHa.toLocaleString() + ' ha' : 'Unknown'}<br>
+                                <strong>Agency:</strong> ${agency}<br>
+                                <em>UK Offshore MPA</em>
+                            `);
+                        } else {
+                            // Fallback to marker if polygon creation fails
+                            const marker = L.marker([lat, lng], {
+                                icon: L.icon({
+                                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+                                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                    iconSize: [25, 41],
+                                    iconAnchor: [12, 41],
+                                    popupAnchor: [1, -34],
+                                    shadowSize: [41, 41]
+                                })
+                            });
+
+                            marker.addTo(mpaLayer).bindPopup(`
+                                <b>${name}</b><br>
+                                <strong>Type:</strong> ${type}<br>
+                                <strong>Area:</strong> ${areaHa ? areaHa.toLocaleString() + ' ha' : 'Unknown'}<br>
+                                <strong>Agency:</strong> ${agency}<br>
+                                <em>UK Offshore MPA</em>
+                            `);
+                        }
                         mpaCount++;
                     }
                 } catch (e) {
@@ -275,7 +344,7 @@ async function loadCSVData() {
 // Add layer control
 const overlayMaps = {
     "Protected Features": protectedFeaturesLayer,
-    "UK Offshore MPAs": mpaLayer,
+    "UK Offshore MPA Polygons": mpaLayer,
     "Offshore Wind Farms": windFarmsLayer
 };
 
@@ -290,8 +359,8 @@ legend.onAdd = function (map) {
         <div style="background: white; padding: 10px; border: 2px solid rgba(0,0,0,0.2); border-radius: 5px;">
             <h4 style="margin: 0 0 10px 0; font-size: 14px;">Map Legend</h4>
             <div style="display: flex; align-items: center; margin-bottom: 5px;">
-                <div style="width: 20px; height: 20px; background: url('https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png') no-repeat center; background-size: contain; margin-right: 8px;"></div>
-                <span style="font-size: 12px;">UK Offshore MPA Sites</span>
+                <div style="width: 20px; height: 20px; background: #3388ff; border: 2px solid blue; opacity: 0.7; margin-right: 8px;"></div>
+                <span style="font-size: 12px;">UK Offshore MPA Polygons</span>
             </div>
             <div style="display: flex; align-items: center;">
                 <div style="width: 12px; height: 12px; border-radius: 50%; background: green; border: 2px solid lightgreen; margin-right: 8px;"></div>
@@ -308,5 +377,32 @@ legend.onAdd = function (map) {
 
 legend.addTo(map);
 
+// Add info control for generation data
+const infoControl = L.control({ position: 'topright' });
+
+infoControl.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'info');
+    this.update();
+    return this._div;
+};
+
+infoControl.update = function (props) {
+    this._div.innerHTML = `
+        <div style="background: white; padding: 10px; border: 2px solid rgba(0,0,0,0.2); border-radius: 5px;">
+            <h4 style="margin: 0 0 10px 0; font-size: 14px;">Live Generation Data</h4>
+            <div style="font-size: 12px;">
+                <strong>Offshore Wind:</strong> ${props ? props.offshoreWind : 'Loading...'} MW<br>
+                <em>Data from National Grid ESO</em>
+            </div>
+        </div>
+    `;
+};
+
+infoControl.addTo(map);
+
 // Load the data when the page loads
 loadCSVData();
+loadGenerationData();
+
+// Update generation data every 5 minutes
+setInterval(loadGenerationData, 5 * 60 * 1000);
