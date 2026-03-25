@@ -1,297 +1,297 @@
-name,latitude,longitude,type,description,status,designation_date,protection_reason
-Bass Rock,56.072,-2.641,Special Area of Conservation,Important seabird colony,Designated,2000-01-01,Protection of breeding seabirds and marine habitats
-Firth of Forth Banks,56.1,-2.5,Marine Conservation Zone,Sandbank habitat,Designated,2014-11-01,Protection of rare sandbank ecosystems and benthic species
-St Abbs and Eyemouth,55.9,-2.1,Voluntary Marine Reserve,Coastal marine reserve,Designated,2013-06-01,Protection of rocky reef habitats and associated species
-Farnes Deep,55.6,-1.2,Marine Conservation Zone,Deep sea habitat,Proposed,2024-01-01,Protection of deep-sea coral reefs and cold-water species
-Dogger Bank,54.5,2.8,SAC,Offshore sandbank,Designated,2004-12-01,Protection of extensive sandbank habitats supporting marine species
-UKMCZ0076	Cape Bank	MCZ - Secretary of State	England inshore & England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKNCMPA020	Central Fladen	NCMPA	Scotland offshore	Northern North Sea	habitat	Habitat		Burrowed mud		
-UKNCMPA020	Central Fladen	NCMPA	Scotland offshore	Northern North Sea	geology	Geodiversity		Quaternary of Scotland: Sub-glacial tunnel valley		
-UK0030381	Croker Carbonate Slabs	SAC	Wales offshore	Irish Sea	habitat	Annex I habitat	1180	Submarine structures made by leaking gases		
-UK0030317	Darwin Mounds	SAC	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Annex I habitat	1170	Reefs		
-UK0030352	Dogger Bank	SAC	England offshore	Southern North Sea	habitat	Annex I habitat	1110	Sandbanks which are slightly covered by sea water all the time		
-UKNCMPA021	East of Gannet and Montrose Fields	NCMPA	Scotland offshore	Northern North Sea	habitat	Habitat		Offshore deep sea muds		
-UKNCMPA021	East of Gannet and Montrose Fields	NCMPA	Scotland offshore	Northern North Sea	species	Low or limited mobility species		Arctica islandica	Ocean quahog	
-UKMCZ0023	East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A4.2	Moderate energy circalittoral rock		
-UKMCZ0023	East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat mosaic	A5.1/A5.4	Subtidal coarse sediment and subtidal mixed sediments mosaic		
-UKMCZ0023	East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0023	East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0023	East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	species	FOCI species	SOCI_5	Atrina fragilis	Fan mussel	
-UKMCZ0023	East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A4.1	High energy circalittoral rock		
-UKMCZ0023	East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	FOCI habitat	HOCI_18	Sea-pen and burrowing megafauna communities		
-UKMCZ0077	East of Start Point	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UK0030389	East Rockall Bank	SAC	Scotland offshore	Atlantic North-West Approaches	habitat	Annex I habitat	1170	Reefs		
-UKMCZ0043	Farnes East	MCZ - Secretary of State	England inshore & England offshore	Northern North Sea	habitat	Broad-scale habitat	A4.2	Moderate energy circalittoral rock		
-UKMCZ0043	Farnes East	MCZ - Secretary of State	England inshore & England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0043	Farnes East	MCZ - Secretary of State	England inshore & England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0043	Farnes East	MCZ - Secretary of State	England inshore & England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0043	Farnes East	MCZ - Secretary of State	England inshore & England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0043	Farnes East	MCZ - Secretary of State	England inshore & England offshore	Northern North Sea	habitat	FOCI habitat	HOCI_18	Sea-pen and burrowing megafauna communities		
-UKMCZ0043	Farnes East	MCZ - Secretary of State	England inshore & England offshore	Northern North Sea	species	FOCI species	SOCI_3	Arctica islandica	Ocean quahog	
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Deep sea sponge aggregations		
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Offshore subtidal sands and gravels		
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Large-scale feature		Continental slope		
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	species	Low or limited mobility species		Arctica islandica	Ocean quahog	
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Sand wave fields		
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Sediment wave fields		
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Continental slope channels		
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Iceberg ploughmark fields		
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Prograding wedges		
-UKNCMPA022	Faroe-Shetland Sponge Belt	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Submarine Mass Movement: Slide deposits		
-UKNCMPA018	Firth of Forth Banks Complex	NCMPA	Scotland inshore & Scotland offshore	Northern North Sea	habitat	Habitat		Offshore subtidal sands and gravels		
-UKNCMPA018	Firth of Forth Banks Complex	NCMPA	Scotland inshore & Scotland offshore	Northern North Sea	habitat	Large-scale feature		Shelf banks and mounds		
-UKNCMPA018	Firth of Forth Banks Complex	NCMPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Low or limited mobility species		Arctica islandica	Ocean quahog	
-UKNCMPA018	Firth of Forth Banks Complex	NCMPA	Scotland inshore & Scotland offshore	Northern North Sea	geology	Geodiversity		Quaternary of Scotland: Moraines		
-UKMCZ0046	Fulmar	MCZ - Secretary of State	England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0046	Fulmar	MCZ - Secretary of State	England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0046	Fulmar	MCZ - Secretary of State	England offshore	Northern North Sea	species	FOCI species	SOCI_3	Arctica islandica	Ocean quahog	
-UKMCZ0046	Fulmar	MCZ - Secretary of State	England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKNCMPA023	Geikie Slide and Hebridean Slope	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Burrowed mud		
-UKNCMPA023	Geikie Slide and Hebridean Slope	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Offshore deep sea muds		
-UKNCMPA023	Geikie Slide and Hebridean Slope	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Offshore subtidal sands and gravels		
-UKNCMPA023	Geikie Slide and Hebridean Slope	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Large-scale feature		Continental slope		
-UKNCMPA023	Geikie Slide and Hebridean Slope	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Submarine Mass Movement: Slide deposits		
-UKNCMPA023	Geikie Slide and Hebridean Slope	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Submarine Mass Movement: Slide scars		
-UKMCZ0047	Greater Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	geology	Geological or geomorphological feature of interest	G9	Haig Fras rock complex		
-UKMCZ0047	Greater Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0047	Greater Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0047	Greater Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0047	Greater Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	FOCI habitat	HOCI_18	Sea-pen and burrowing megafauna communities		
-UKMCZ0047	Greater Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UK9020329	Greater Wash	SPA	England inshore & England offshore	Southern North Sea	species	Annex I (species)		Gavia stellata	Red-throated diver	wintering
-UK9020329	Greater Wash	SPA	England inshore & England offshore	Southern North Sea	species	Annex I (species)		Larus minutus	Little gull	wintering
-UK9020329	Greater Wash	SPA	England inshore & England offshore	Southern North Sea	species	Annex I (species)		Sterna albifrons	Little tern	reproducing
-UK9020329	Greater Wash	SPA	England inshore & England offshore	Southern North Sea	species	Annex I (species)		Sterna hirundo	Common tern	reproducing
-UK9020329	Greater Wash	SPA	England inshore & England offshore	Southern North Sea	species	Annex I (species)		Sterna sandvicensis	Sandwich tern	reproducing
-UK9020329	Greater Wash	SPA	England inshore & England offshore	Southern North Sea	species	Regularly occurring migratory species		Melanitta nigra	Black (common) scoter	wintering
-UK0030353	Haig Fras	SAC	England offshore	Western Channel and Celtic Sea	habitat	Annex I habitat	1170	Reefs		
-UK0030369	Haisborough, Hammond and Winterton	SAC	England inshore & England offshore	Southern North Sea	habitat	Annex I habitat	1110	Sandbanks which are slightly covered by sea water all the time		
-UK0030369	Haisborough, Hammond and Winterton	SAC	England inshore & England offshore	Southern North Sea	habitat	Annex I habitat	1170	Reefs		
-UK0030388	Hatton Bank	cSAC	Scotland offshore	Atlantic North-West Approaches	habitat	Annex I habitat	1170	Reefs		
-UKNCMPA024	Hatton-Rockall Basin	NCMPA	Scotland offshore	Atlantic North-West Approaches	habitat	Habitat		Deep sea sponge aggregations		
-UKNCMPA024	Hatton-Rockall Basin	NCMPA	Scotland offshore	Atlantic North-West Approaches	habitat	Habitat		Offshore deep sea muds		
-UKNCMPA024	Hatton-Rockall Basin	NCMPA	Scotland offshore	Atlantic North-West Approaches	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Polygonal faults		
-UKNCMPA024	Hatton-Rockall Basin	NCMPA	Scotland offshore	Atlantic North-West Approaches	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Sediment drifts		
-UKMCZ0078	Holderness Offshore	MCZ - Secretary of State	England inshore & England offshore	Southern North Sea	species	FOCI species	SOCI_3	Arctica islandica	Ocean quahog	
-UKMCZ0078	Holderness Offshore	MCZ - Secretary of State	England inshore & England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0078	Holderness Offshore	MCZ - Secretary of State	England inshore & England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0078	Holderness Offshore	MCZ - Secretary of State	England inshore & England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0078	Holderness Offshore	MCZ - Secretary of State	England inshore & England offshore	Southern North Sea	geology	Geological or geomorphological feature of interest	G15	North Sea glacial tunnel valleys		
-UKMCZ0079	Inner Bank	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0079	Inner Bank	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0079	Inner Bank	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UK0030370	Inner Dowsing, Race Bank and North Ridge	SAC	England inshore & England offshore	Southern North Sea	habitat	Annex I habitat	1110	Sandbanks which are slightly covered by sea water all the time		
-UK0030370	Inner Dowsing, Race Bank and North Ridge	SAC	England inshore & England offshore	Southern North Sea	habitat	Annex I habitat	1170	Reefs		
-UK9020328	Irish Sea Front	SPA	Wales offshore	Irish Sea	species	Regularly occurring migratory species		Puffinus puffinus	Manx shearwater	reproducing
-UKMCZ0080	Kentish Knock East	MCZ - Secretary of State	England inshore & England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0080	Kentish Knock East	MCZ - Secretary of State	England inshore & England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0080	Kentish Knock East	MCZ - Secretary of State	England inshore & England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UK9020294	Liverpool Bay / Bae Lerpwl	SPA	England inshore & England offshore & Wales inshore	Irish Sea	assemblage	Regularly occurring migratory species		Waterbird assemblage	Waterbird assemblage	
-UK9020294	Liverpool Bay / Bae Lerpwl	SPA	England inshore & England offshore & Wales inshore	Irish Sea	species	Annex I (species)		Gavia stellata	Red-throated diver	wintering
-UK9020294	Liverpool Bay / Bae Lerpwl	SPA	England inshore & England offshore & Wales inshore	Irish Sea	species	Annex I (species)		Larus minutus	Little gull	wintering
-UK9020294	Liverpool Bay / Bae Lerpwl	SPA	England inshore & England offshore & Wales inshore	Irish Sea	species	Annex I (species)		Sterna albifrons	Little tern	reproducing
-UK9020294	Liverpool Bay / Bae Lerpwl	SPA	England inshore & England offshore & Wales inshore	Irish Sea	species	Annex I (species)		Sterna hirundo	Common tern	reproducing
-UK9020294	Liverpool Bay / Bae Lerpwl	SPA	England inshore & England offshore & Wales inshore	Irish Sea	species	Regularly occurring migratory species		Melanitta nigra	Black (common) scoter	wintering
-UKMCZ0084	Markham’s Triangle	MCZ - Secretary of State	England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0084	Markham’s Triangle	MCZ - Secretary of State	England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0084	Markham’s Triangle	MCZ - Secretary of State	England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0084	Markham’s Triangle	MCZ - Secretary of State	England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UK0030398	North Anglesey Marine / Gogledd Môn Forol	SAC	Northern Ireland offshore & Wales inshore & Wales offshore	Irish Sea	species	Annex II species	1351	Phocoena phocoena	Harbour porpoise	
-UK0030399	North Channel	SAC	Northern Ireland inshore & Northern Ireland offshore	Irish Sea	species	Annex II species	1351	Phocoena phocoena	Harbour porpoise	
-UKMCZ0024	North East of Farnes Deep	MCZ - Secretary of State	England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0024	North East of Farnes Deep	MCZ - Secretary of State	England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0024	North East of Farnes Deep	MCZ - Secretary of State	England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0024	North East of Farnes Deep	MCZ - Secretary of State	England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0024	North East of Farnes Deep	MCZ - Secretary of State	England offshore	Northern North Sea	species	FOCI species	SOCI_3	Arctica islandica	Ocean quahog	
-UK0030358	North Norfolk Sandbanks and Saturn Reef	SAC	England offshore	Southern North Sea	habitat	Annex I habitat	1110	Sandbanks which are slightly covered by sea water all the time		
-UK0030358	North Norfolk Sandbanks and Saturn Reef	SAC	England offshore	Southern North Sea	habitat	Annex I habitat	1170	Reefs		
-UK0030363	North West Rockall Bank	SAC	Scotland offshore	Atlantic North-West Approaches	habitat	Annex I habitat	1170	Reefs		
-UKNCMPA025	North-east Faroe-Shetland Channel	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Cenozoic Structures of the Atlantic Margin: Mud diapirs		
-UKNCMPA025	North-east Faroe-Shetland Channel	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Contourite sand/silt		
-UKNCMPA025	North-east Faroe-Shetland Channel	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Deep sea sponge aggregations		
-UKNCMPA025	North-east Faroe-Shetland Channel	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Offshore deep sea muds		
-UKNCMPA025	North-east Faroe-Shetland Channel	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Offshore subtidal sands and gravels		
-UKNCMPA025	North-east Faroe-Shetland Channel	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Large-scale feature		Continental slope		
-UKNCMPA025	North-east Faroe-Shetland Channel	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Prograding wedges		
-UKNCMPA025	North-east Faroe-Shetland Channel	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Submarine Mass Movement: Slide deposits		
-UKMCZ0085	North-East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0085	North-East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0085	North-East of Haig Fras	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0048	North-West of Jones Bank	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0048	North-West of Jones Bank	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0048	North-West of Jones Bank	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0048	North-West of Jones Bank	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0048	North-West of Jones Bank	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	FOCI habitat	HOCI_18	Sea-pen and burrowing megafauna communities		
-UKNCMPA019	North-west Orkney	NCMPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Mobile species		Ammodytes spp.	Sandeels	
-UKNCMPA019	North-west Orkney	NCMPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Shelf Seabed: Sand bank		
-UKNCMPA019	North-west Orkney	NCMPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Shelf Seabed: Sand wave fields		
-UKNCMPA019	North-west Orkney	NCMPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Shelf Seabed: Sediment wave fields		
-UKNCMPA026	Norwegian Boundary Sediment Plain	NCMPA	Scotland offshore	Northern North Sea	species	Low or limited mobility species		Arctica islandica	Ocean quahog	
-UKMCZ0049	Offshore Brighton	MCZ - Secretary of State	England offshore	Eastern Channel	habitat	Broad-scale habitat	A4.1	High energy circalittoral rock		
-UKMCZ0049	Offshore Brighton	MCZ - Secretary of State	England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0049	Offshore Brighton	MCZ - Secretary of State	England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0044	Offshore Overfalls	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	geology	Geological or geomorphological feature of interest	G1	English Channel Outburst Flood Features (Quaternary fluvio-glacial erosion features)		
-UKMCZ0044	Offshore Overfalls	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0044	Offshore Overfalls	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0044	Offshore Overfalls	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0081	Orford Inshore	MCZ - Secretary of State	England inshore & England offshore	Southern North Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Annex I (species)		Sterna paradisaea	Arctic tern	reproducing
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Fratercula arctica	Atlantic puffin	reproducing
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Melanitta nigra	Black (common) scoter	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Larus ridibundus	Black-headed gull	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Rissa tridactyla	Black-legged kittiwake	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Rissa tridactyla	Black-legged kittiwake	reproducing
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Somateria mollissima	Common eider	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Bucephala clangula	Common goldeneye	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Uria aalge	Common guillemot	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Uria aalge	Common guillemot	reproducing
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Larus canus	Common gull	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Annex I (species)		Sterna hirundo	Common tern	reproducing
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Phalacrocorax aristotelis	European shag	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Phalacrocorax aristotelis	European shag	reproducing
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Larus argentatus	Herring gull	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Larus argentatus	Herring gull	reproducing
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Annex I (species)		Larus minutus	Little gull	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Clangula hyemalis	Long-tailed duck	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Puffinus puffinus	Manx shearwater	reproducing
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Morus bassanus	Northern gannet	reproducing
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Alca torda	Razorbill	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Mergus serrator	Red-breasted merganser	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Annex I (species)		Gavia stellata	Red-throated diver	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Annex I (species)		Podiceps auritus	Slavonian grebe	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	species	Regularly occurring migratory species		Melanitta fusca	Velvet scoter	wintering
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	assemblage	Regularly occurring migratory species		Waterbird assemblage		
-UK9020316	Outer Firth of Forth and St Andrews Bay Complex	SPA	Scotland inshore & Scotland offshore	Northern North Sea	assemblage	Regularly occurring migratory species		Seabird assemblage		
-UK9020309	Outer Thames Estuary	SPA	England inshore & England offshore	Southern North Sea	species	Annex I (species)		Gavia stellata	Red-throated diver	wintering
-UK9020309	Outer Thames Estuary	SPA	England inshore & England offshore	Southern North Sea	species	Annex I (species)		Sterna albifrons	Little tern	reproducing
-UK9020309	Outer Thames Estuary	SPA	England inshore & England offshore	Southern North Sea	species	Annex I (species)		Sterna hirundo	Common tern	reproducing
-UK0030379	Pisces Reef Complex	SAC	Northern Ireland offshore	Irish Sea	habitat	Annex I habitat	1170	Reefs		
-UK0030385	Pobie Bank Reef	SAC	Scotland inshore & Scotland offshore	Northern North Sea	habitat	Annex I habitat	1170	Reefs		
-UKMCZ0086	Queenie Corner	MCZ - Secretary of State	Northern Ireland offshore	Irish Sea	habitat	FOCI habitat	HOCI_18	Sea-pen and burrowing megafauna communities		
-UKMCZ0086	Queenie Corner	MCZ - Secretary of State	Northern Ireland offshore	Irish Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UK0030354	Scanner Pockmark	SAC	Scotland offshore	Northern North Sea	habitat	Annex I habitat	1180	Submarine structures made by leaking gases		
-UK9020331	Seas off Foula	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Stercorarius parasiticus	Arctic Skua	reproducing
-UK9020331	Seas off Foula	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Fratercula arctica	Atlantic puffin	reproducing
-UK9020331	Seas off Foula	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Uria aalge	Common guillemot	reproducing
-UK9020331	Seas off Foula	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Uria aalge	Common guillemot	wintering
-UK9020331	Seas off Foula	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Stercorarius skua	Great skua	reproducing
-UK9020331	Seas off Foula	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Stercorarius skua	Great skua	wintering
-UK9020331	Seas off Foula	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Fulmarus glacialis	Northern fulmar	reproducing
-UK9020331	Seas off Foula	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Fulmarus glacialis	Northern fulmar	wintering
-UK9020331	Seas off Foula	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	assemblage	Regularly occurring migratory species		Seabird assemblage		
-UK9020332	Seas off St Kilda	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Fratercula arctica	Atlantic puffin	reproducing
-UK9020332	Seas off St Kilda	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Uria aalge	Common guillemot	reproducing
-UK9020332	Seas off St Kilda	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Annex I (species)		Hydrobates pelagicus	European storm-petrel	reproducing
-UK9020332	Seas off St Kilda	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Fulmarus glacialis	Northern fulmar	reproducing
-UK9020332	Seas off St Kilda	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	species	Regularly occurring migratory species		Morus bassanus	Northern gannet	reproducing
-UK9020332	Seas off St Kilda	SPA	Scotland inshore & Scotland offshore	Scottish Continental Shelf	assemblage	Regularly occurring migratory species		Seabird assemblage		
-UK9014051	Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro	SPA	Wales inshore & Wales offshore	Western Channel and Celtic Sea	assemblage	Regularly occurring migratory species		Seabird assemblage	Seabird assemblage	
-UK9014051	Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro	SPA	Wales inshore & Wales offshore	Western Channel and Celtic Sea	species	Annex I (species)		Hydrobates pelagicus	European storm-petrel	reproducing
-UK9014051	Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro	SPA	Wales inshore & Wales offshore	Western Channel and Celtic Sea	species	Regularly occurring migratory species		Fratercula arctica	Atlantic puffin	reproducing
-UK9014051	Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro	SPA	Wales inshore & Wales offshore	Western Channel and Celtic Sea	species	Regularly occurring migratory species		Larus fuscus	Lesser black-backed gull	reproducing
-UK9014051	Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro	SPA	Wales inshore & Wales offshore	Western Channel and Celtic Sea	species	Regularly occurring migratory species		Puffinus puffinus	Manx shearwater	reproducing
-UK0030386	Solan Bank Reef	SAC	Scotland inshore & Scotland offshore	Scottish Continental Shelf	habitat	Annex I habitat	1170	Reefs		
-UKMCZ0022	South Dorset	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A4.2	Moderate energy circalittoral rock		
-UKMCZ0022	South Dorset	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0022	South Dorset	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	FOCI habitat	HOCI_20	Subtidal chalk		
-UKMCZ0022	South Dorset	MCZ - Secretary of State	England inshore & England offshore	Eastern Channel	habitat	Broad-scale habitat	A4.1	High energy circalittoral rock		
-UKMCZ0087	South of Celtic Deep	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A4.2	Moderate energy circalittoral rock		
-UKMCZ0087	South of Celtic Deep	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0087	South of Celtic Deep	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0087	South of Celtic Deep	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0082	South of the Isles of Scilly	MCZ - Secretary of State	England inshore & England offshore	Western Channel and Celtic Sea	species	FOCI species	SOCI_5	Atrina fragilis	Fan mussel	
-UKMCZ0082	South of the Isles of Scilly	MCZ - Secretary of State	England inshore & England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat mosaic	A5.1/A5.4	Subtidal coarse sediment and subtidal mixed sediments mosaic		
-UKMCZ0082	South of the Isles of Scilly	MCZ - Secretary of State	England inshore & England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0088	South Rigg	MCZ - Secretary of State	Northern Ireland offshore	Irish Sea	habitat	Broad-scale habitat	A4.2	Moderate energy circalittoral rock		
-UKMCZ0088	South Rigg	MCZ - Secretary of State	Northern Ireland offshore	Irish Sea	habitat	FOCI habitat	HOCI_18	Sea-pen and burrowing megafauna communities		
-UKMCZ0088	South Rigg	MCZ - Secretary of State	Northern Ireland offshore	Irish Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0088	South Rigg	MCZ - Secretary of State	Northern Ireland offshore	Irish Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0088	South Rigg	MCZ - Secretary of State	Northern Ireland offshore	Irish Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0088	South Rigg	MCZ - Secretary of State	Northern Ireland offshore	Irish Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0083	South West Approaches to the Bristol Channel	MCZ - Secretary of State	England inshore & England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0083	South West Approaches to the Bristol Channel	MCZ - Secretary of State	England inshore & England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0089	South West Deeps (East)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	geology	Geological or geomorphological feature of interest	G8	Celtic Sea Relict Sandbanks		
-UKMCZ0089	South West Deeps (East)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A6	Deep-sea bed		
-UKMCZ0089	South West Deeps (East)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0089	South West Deeps (East)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UK0030395	Southern North Sea	SAC	England inshore & England offshore	Eastern Channel & Northern North Sea & Southern North Sea	species	Annex II species	1351	Phocoena phocoena	Harbour porpoise	
-UKMCZ0025	South-West Deeps (West)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	geology	Geological or geomorphological feature of interest	G8	Celtic Sea Relict Sandbanks		
-UKMCZ0025	South-West Deeps (West)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0025	South-West Deeps (West)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0025	South-West Deeps (West)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0025	South-West Deeps (West)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0025	South-West Deeps (West)	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	species	FOCI species	SOCI_5	Atrina fragilis	Fan mussel	
-UK0030359	Stanton Banks	SAC	Scotland offshore	Minches and Western Scotland & Scottish Continental Shelf	habitat	Annex I habitat	1170	Reefs		
-UKMCZ0026	Swallow Sand	MCZ - Secretary of State	England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0026	Swallow Sand	MCZ - Secretary of State	England offshore	Northern North Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0026	Swallow Sand	MCZ - Secretary of State	England offshore	Northern North Sea	geology	Geological or geomorphological feature of interest	G15	North Sea glacial tunnel valleys: Swallow Hole		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Cenozoic Structures of the Atlantic Margin: Continental slope		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Cenozoic Structures of the Atlantic Margin: Hebrides Terrace Seamount		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Scour moat		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Iceberg ploughmark fields		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Burrowed mud		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Offshore deep sea muds		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Offshore subtidal sands and gravels		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Seamount communities		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Large-scale feature		Continental slope		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Large-scale feature		Seamounts		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	species	Mobile species		Hoplostethus atlanticus	Orange roughy	
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Prograding wedges		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Submarine Mass Movement: Continental slope turbidite canyons		
-UKNCMPA028	The Barra Fan and Hebrides Terrace Seamount	NCMPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Submarine Mass Movement: Slide deposits		
-UKMCZ0027	The Canyons	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A6	Deep-sea bed		
-UKMCZ0027	The Canyons	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	FOCI habitat	HOCI_2	Cold-water coral reefs		
-UKMCZ0027	The Canyons	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	FOCI habitat	HOCI_3	Coral gardens		
-UKMCZ0027	The Canyons	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	FOCI habitat	HOCI_18	Sea-pen and burrowing megafauna communities		
-UKNCMPA029	Turbot Bank	NCMPA	Scotland offshore	Northern North Sea	species	Mobile species		Ammodytes spp.	Sandeels	
-UKMCZ0090	West of Copeland	MCZ - Secretary of State	England offshore	Irish Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0090	West of Copeland	MCZ - Secretary of State	England offshore	Irish Sea	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKMCZ0090	West of Copeland	MCZ - Secretary of State	England offshore	Irish Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Cenozoic Structures of the Atlantic Margin: Anton Dohrn Seamount		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Cenozoic Structures of the Atlantic Margin: Rosemary Bank Seamount		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Cliff		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Large bank (Palaeogene igneous centre)		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Bioherm reefs		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Erosional scour field		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Scour moat		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Sediment drifts		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Sediment wave fields		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Marine Geomorphology of the Scottish Deep Ocean Seabed: Small scale ridges		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Parasitic cones		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Iceberg ploughmark fields		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Burrowed mud		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Coral gardens		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		"Cold-water coral reefs (including Lophelia
-pertusa reefs)"		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Deep sea sponge aggregations		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Offshore deep sea muds		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Offshore subtidal sands and gravels		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Habitat		Seamount communities		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Large-scale feature		Seamounts		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	species	Mobile species		Molva dypterygia	Blue ling	
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	species	Mobile species		Centrophorus squamosus	Leafscale gulper shark	
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	species	Mobile species		Centrophorus granulosus	Gulper shark	
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	species	Mobile species		Hoplostethus atlanticus	Orange roughy	
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	species	Mobile species		Centroscymnus coelolepis	Portuguese dogfish	
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	species	Mobile species		Coryphaenoides rupestris	Roundnose grenadier	
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Ice-distal and glacimarine facies		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Ice-proximal and ice-contact facies		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Prograding wedges		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Quaternary of Scotland: Sub-glacial tills		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Submarine Mass Movement: Continental slope turbidite canyons		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Submarine Mass Movement: Slide deposits		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Submarine Mass Movement: Slide scars		
-UKMPA0001	West of Scotland 	MPA	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	geology	Geodiversity		Turbidite accumulation		
-UKMCZ0045	West of Walney	MCZ - Secretary of State	England inshore & England offshore	Irish Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UKMCZ0045	West of Walney	MCZ - Secretary of State	England inshore & England offshore	Irish Sea	habitat	Broad-scale habitat	A5.3	Subtidal mud		
-UKMCZ0045	West of Walney	MCZ - Secretary of State	England inshore & England offshore	Irish Sea	habitat	FOCI habitat	HOCI_18	Sea-pen and burrowing megafauna communities		
-UKMCZ0091	West of Wight-Barfleur	MCZ - Secretary of State	England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0091	West of Wight-Barfleur	MCZ - Secretary of State	England offshore	Eastern Channel	habitat	Broad-scale habitat	A5.4	Subtidal mixed sediments		
-UKNCMPA030	West Shetland Shelf	NCMPA	Scotland offshore	Scottish Continental Shelf	habitat	Habitat		Offshore subtidal sands and gravels		
-UK0030397	West Wales Marine / Gorllewin Cymru Forol	SAC	Wales inshore & Wales offshore	Irish Sea & Western Channel and Celtic Sea	species	Annex II species	1351	Phocoena phocoena	Harbour porpoise	
-UKMCZ0050	Western Channel	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.1	Subtidal coarse sediment		
-UKMCZ0050	Western Channel	MCZ - Secretary of State	England offshore	Western Channel and Celtic Sea	habitat	Broad-scale habitat	A5.2	Subtidal sand		
-UK0030380	Wight-Barfleur Reef	SAC	England offshore	Eastern Channel	habitat	Annex I habitat	1170	Reefs		
-UK0030355	Wyville Thomson Ridge	SAC	Scotland offshore	Atlantic North-West Approaches & Scottish Continental Shelf	habitat	Annex I habitat	1170	Reefs		
-UKEHPMA002	Dolphin Head	HPMA (MCZ)	England offshore	Eastern Channel	ecosystem	Marine ecosystem	HPMA_F1	The marine ecosystem of the area		
-UKEHPMA003	North East of Farnes Deep	HPMA (MCZ)	England offshore	Northern North Sea	ecosystem	Marine ecosystem	HPMA_F1	The marine ecosystem of the area		
+﻿Site code,Site name,Site status,Country,CP2 Region,Feature type (broad),Feature type (specific),Feature code,Marine features protected,Common name,Population type
+UK0030387,Anton Dohrn Seamount,SAC,Scotland offshore,Atlantic North-West Approaches,habitat,Annex I habitat,1170,Reefs,,
+UK0030368,Bassurelle Sandbank,SAC,England offshore,Eastern Channel,habitat,Annex I habitat,1110,Sandbanks which are slightly covered by sea water all the time,,
+UK0030357,Braemar Pockmarks,SAC,Scotland offshore,Northern North Sea,habitat,Annex I habitat,1180,Submarine structures made by leaking gases,,
+UK0030396,Bristol Channel Approaches / Dynesfeydd Môr Hafren,SAC,England inshore & England offshore & Wales inshore & Wales offshore,Western Channel and Celtic Sea,species,Annex II species,1351,Phocoena phocoena,Harbour porpoise,
+UKMCZ0076,Cape Bank,MCZ - Secretary of State,England inshore & England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A4.2,Moderate energy circalittoral rock,,
+UKMCZ0076,Cape Bank,MCZ - Secretary of State,England inshore & England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKNCMPA020,Central Fladen,NCMPA,Scotland offshore,Northern North Sea,habitat,Habitat,,Burrowed mud,,
+UKNCMPA020,Central Fladen,NCMPA,Scotland offshore,Northern North Sea,geology,Geodiversity,,Quaternary of Scotland: Sub-glacial tunnel valley,,
+UK0030381,Croker Carbonate Slabs,SAC,Wales offshore,Irish Sea,habitat,Annex I habitat,1180,Submarine structures made by leaking gases,,
+UK0030317,Darwin Mounds,SAC,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Annex I habitat,1170,Reefs,,
+UK0030352,Dogger Bank,SAC,England offshore,Southern North Sea,habitat,Annex I habitat,1110,Sandbanks which are slightly covered by sea water all the time,,
+UKNCMPA021,East of Gannet and Montrose Fields,NCMPA,Scotland offshore,Northern North Sea,habitat,Habitat,,Offshore deep sea muds,,
+UKNCMPA021,East of Gannet and Montrose Fields,NCMPA,Scotland offshore,Northern North Sea,species,Low or limited mobility species,,Arctica islandica,Ocean quahog,
+UKMCZ0023,East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A4.2,Moderate energy circalittoral rock,,
+UKMCZ0023,East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat mosaic,A5.1/A5.4,Subtidal coarse sediment and subtidal mixed sediments mosaic,,
+UKMCZ0023,East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0023,East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0023,East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,species,FOCI species,SOCI_5,Atrina fragilis,Fan mussel,
+UKMCZ0023,East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A4.1,High energy circalittoral rock,,
+UKMCZ0023,East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,FOCI habitat,HOCI_18,Sea-pen and burrowing megafauna communities,,
+UKMCZ0077,East of Start Point,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UK0030389,East Rockall Bank,SAC,Scotland offshore,Atlantic North-West Approaches,habitat,Annex I habitat,1170,Reefs,,
+UKMCZ0043,Farnes East,MCZ - Secretary of State,England inshore & England offshore,Northern North Sea,habitat,Broad-scale habitat,A4.2,Moderate energy circalittoral rock,,
+UKMCZ0043,Farnes East,MCZ - Secretary of State,England inshore & England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0043,Farnes East,MCZ - Secretary of State,England inshore & England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0043,Farnes East,MCZ - Secretary of State,England inshore & England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0043,Farnes East,MCZ - Secretary of State,England inshore & England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0043,Farnes East,MCZ - Secretary of State,England inshore & England offshore,Northern North Sea,habitat,FOCI habitat,HOCI_18,Sea-pen and burrowing megafauna communities,,
+UKMCZ0043,Farnes East,MCZ - Secretary of State,England inshore & England offshore,Northern North Sea,species,FOCI species,SOCI_3,Arctica islandica,Ocean quahog,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Deep sea sponge aggregations,,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Offshore subtidal sands and gravels,,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Large-scale feature,,Continental slope,,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,species,Low or limited mobility species,,Arctica islandica,Ocean quahog,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Sand wave fields,,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Sediment wave fields,,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Continental slope channels,,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Iceberg ploughmark fields,,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Prograding wedges,,
+UKNCMPA022,Faroe-Shetland Sponge Belt,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Submarine Mass Movement: Slide deposits,,
+UKNCMPA018,Firth of Forth Banks Complex,NCMPA,Scotland inshore & Scotland offshore,Northern North Sea,habitat,Habitat,,Offshore subtidal sands and gravels,,
+UKNCMPA018,Firth of Forth Banks Complex,NCMPA,Scotland inshore & Scotland offshore,Northern North Sea,habitat,Large-scale feature,,Shelf banks and mounds,,
+UKNCMPA018,Firth of Forth Banks Complex,NCMPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Low or limited mobility species,,Arctica islandica,Ocean quahog,
+UKNCMPA018,Firth of Forth Banks Complex,NCMPA,Scotland inshore & Scotland offshore,Northern North Sea,geology,Geodiversity,,Quaternary of Scotland: Moraines,,
+UKMCZ0046,Fulmar,MCZ - Secretary of State,England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0046,Fulmar,MCZ - Secretary of State,England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0046,Fulmar,MCZ - Secretary of State,England offshore,Northern North Sea,species,FOCI species,SOCI_3,Arctica islandica,Ocean quahog,
+UKMCZ0046,Fulmar,MCZ - Secretary of State,England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKNCMPA023,Geikie Slide and Hebridean Slope,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Burrowed mud,,
+UKNCMPA023,Geikie Slide and Hebridean Slope,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Offshore deep sea muds,,
+UKNCMPA023,Geikie Slide and Hebridean Slope,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Offshore subtidal sands and gravels,,
+UKNCMPA023,Geikie Slide and Hebridean Slope,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Large-scale feature,,Continental slope,,
+UKNCMPA023,Geikie Slide and Hebridean Slope,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Submarine Mass Movement: Slide deposits,,
+UKNCMPA023,Geikie Slide and Hebridean Slope,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Submarine Mass Movement: Slide scars,,
+UKMCZ0047,Greater Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,geology,Geological or geomorphological feature of interest,G9,Haig Fras rock complex,,
+UKMCZ0047,Greater Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0047,Greater Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0047,Greater Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0047,Greater Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,FOCI habitat,HOCI_18,Sea-pen and burrowing megafauna communities,,
+UKMCZ0047,Greater Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UK9020329,Greater Wash,SPA,England inshore & England offshore,Southern North Sea,species,Annex I (species),,Gavia stellata,Red-throated diver,wintering
+UK9020329,Greater Wash,SPA,England inshore & England offshore,Southern North Sea,species,Annex I (species),,Larus minutus,Little gull,wintering
+UK9020329,Greater Wash,SPA,England inshore & England offshore,Southern North Sea,species,Annex I (species),,Sterna albifrons,Little tern,reproducing
+UK9020329,Greater Wash,SPA,England inshore & England offshore,Southern North Sea,species,Annex I (species),,Sterna hirundo,Common tern,reproducing
+UK9020329,Greater Wash,SPA,England inshore & England offshore,Southern North Sea,species,Annex I (species),,Sterna sandvicensis,Sandwich tern,reproducing
+UK9020329,Greater Wash,SPA,England inshore & England offshore,Southern North Sea,species,Regularly occurring migratory species,,Melanitta nigra,Black (common) scoter,wintering
+UK0030353,Haig Fras,SAC,England offshore,Western Channel and Celtic Sea,habitat,Annex I habitat,1170,Reefs,,
+UK0030369,"Haisborough, Hammond and Winterton",SAC,England inshore & England offshore,Southern North Sea,habitat,Annex I habitat,1110,Sandbanks which are slightly covered by sea water all the time,,
+UK0030369,"Haisborough, Hammond and Winterton",SAC,England inshore & England offshore,Southern North Sea,habitat,Annex I habitat,1170,Reefs,,
+UK0030388,Hatton Bank,cSAC,Scotland offshore,Atlantic North-West Approaches,habitat,Annex I habitat,1170,Reefs,,
+UKNCMPA024,Hatton-Rockall Basin,NCMPA,Scotland offshore,Atlantic North-West Approaches,habitat,Habitat,,Deep sea sponge aggregations,,
+UKNCMPA024,Hatton-Rockall Basin,NCMPA,Scotland offshore,Atlantic North-West Approaches,habitat,Habitat,,Offshore deep sea muds,,
+UKNCMPA024,Hatton-Rockall Basin,NCMPA,Scotland offshore,Atlantic North-West Approaches,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Polygonal faults,,
+UKNCMPA024,Hatton-Rockall Basin,NCMPA,Scotland offshore,Atlantic North-West Approaches,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Sediment drifts,,
+UKMCZ0078,Holderness Offshore,MCZ - Secretary of State,England inshore & England offshore,Southern North Sea,species,FOCI species,SOCI_3,Arctica islandica,Ocean quahog,
+UKMCZ0078,Holderness Offshore,MCZ - Secretary of State,England inshore & England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0078,Holderness Offshore,MCZ - Secretary of State,England inshore & England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0078,Holderness Offshore,MCZ - Secretary of State,England inshore & England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0078,Holderness Offshore,MCZ - Secretary of State,England inshore & England offshore,Southern North Sea,geology,Geological or geomorphological feature of interest,G15,North Sea glacial tunnel valleys,,
+UKMCZ0079,Inner Bank,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0079,Inner Bank,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0079,Inner Bank,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UK0030370,"Inner Dowsing, Race Bank and North Ridge",SAC,England inshore & England offshore,Southern North Sea,habitat,Annex I habitat,1110,Sandbanks which are slightly covered by sea water all the time,,
+UK0030370,"Inner Dowsing, Race Bank and North Ridge",SAC,England inshore & England offshore,Southern North Sea,habitat,Annex I habitat,1170,Reefs,,
+UK9020328,Irish Sea Front,SPA,Wales offshore,Irish Sea,species,Regularly occurring migratory species,,Puffinus puffinus,Manx shearwater,reproducing
+UKMCZ0080,Kentish Knock East,MCZ - Secretary of State,England inshore & England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0080,Kentish Knock East,MCZ - Secretary of State,England inshore & England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0080,Kentish Knock East,MCZ - Secretary of State,England inshore & England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UK9020294,Liverpool Bay / Bae Lerpwl,SPA,England inshore & England offshore & Wales inshore,Irish Sea,assemblage,Regularly occurring migratory species,,Waterbird assemblage,Waterbird assemblage,
+UK9020294,Liverpool Bay / Bae Lerpwl,SPA,England inshore & England offshore & Wales inshore,Irish Sea,species,Annex I (species),,Gavia stellata,Red-throated diver,wintering
+UK9020294,Liverpool Bay / Bae Lerpwl,SPA,England inshore & England offshore & Wales inshore,Irish Sea,species,Annex I (species),,Larus minutus,Little gull,wintering
+UK9020294,Liverpool Bay / Bae Lerpwl,SPA,England inshore & England offshore & Wales inshore,Irish Sea,species,Annex I (species),,Sterna albifrons,Little tern,reproducing
+UK9020294,Liverpool Bay / Bae Lerpwl,SPA,England inshore & England offshore & Wales inshore,Irish Sea,species,Annex I (species),,Sterna hirundo,Common tern,reproducing
+UK9020294,Liverpool Bay / Bae Lerpwl,SPA,England inshore & England offshore & Wales inshore,Irish Sea,species,Regularly occurring migratory species,,Melanitta nigra,Black (common) scoter,wintering
+UKMCZ0084,Markham’s Triangle,MCZ - Secretary of State,England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0084,Markham’s Triangle,MCZ - Secretary of State,England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0084,Markham’s Triangle,MCZ - Secretary of State,England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0084,Markham’s Triangle,MCZ - Secretary of State,England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UK0030398,North Anglesey Marine / Gogledd Môn Forol,SAC,Northern Ireland offshore & Wales inshore & Wales offshore,Irish Sea,species,Annex II species,1351,Phocoena phocoena,Harbour porpoise,
+UK0030399,North Channel,SAC,Northern Ireland inshore & Northern Ireland offshore,Irish Sea,species,Annex II species,1351,Phocoena phocoena,Harbour porpoise,
+UKMCZ0024,North East of Farnes Deep,MCZ - Secretary of State,England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0024,North East of Farnes Deep,MCZ - Secretary of State,England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0024,North East of Farnes Deep,MCZ - Secretary of State,England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0024,North East of Farnes Deep,MCZ - Secretary of State,England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0024,North East of Farnes Deep,MCZ - Secretary of State,England offshore,Northern North Sea,species,FOCI species,SOCI_3,Arctica islandica,Ocean quahog,
+UK0030358,North Norfolk Sandbanks and Saturn Reef,SAC,England offshore,Southern North Sea,habitat,Annex I habitat,1110,Sandbanks which are slightly covered by sea water all the time,,
+UK0030358,North Norfolk Sandbanks and Saturn Reef,SAC,England offshore,Southern North Sea,habitat,Annex I habitat,1170,Reefs,,
+UK0030363,North West Rockall Bank,SAC,Scotland offshore,Atlantic North-West Approaches,habitat,Annex I habitat,1170,Reefs,,
+UKNCMPA025,North-east Faroe-Shetland Channel,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Cenozoic Structures of the Atlantic Margin: Mud diapirs,,
+UKNCMPA025,North-east Faroe-Shetland Channel,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Contourite sand/silt,,
+UKNCMPA025,North-east Faroe-Shetland Channel,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Deep sea sponge aggregations,,
+UKNCMPA025,North-east Faroe-Shetland Channel,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Offshore deep sea muds,,
+UKNCMPA025,North-east Faroe-Shetland Channel,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Offshore subtidal sands and gravels,,
+UKNCMPA025,North-east Faroe-Shetland Channel,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Large-scale feature,,Continental slope,,
+UKNCMPA025,North-east Faroe-Shetland Channel,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Prograding wedges,,
+UKNCMPA025,North-east Faroe-Shetland Channel,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Submarine Mass Movement: Slide deposits,,
+UKMCZ0085,North-East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0085,North-East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0085,North-East of Haig Fras,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0048,North-West of Jones Bank,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0048,North-West of Jones Bank,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0048,North-West of Jones Bank,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0048,North-West of Jones Bank,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0048,North-West of Jones Bank,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,FOCI habitat,HOCI_18,Sea-pen and burrowing megafauna communities,,
+UKNCMPA019,North-west Orkney,NCMPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Mobile species,,Ammodytes spp.,Sandeels,
+UKNCMPA019,North-west Orkney,NCMPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Shelf Seabed: Sand bank,,
+UKNCMPA019,North-west Orkney,NCMPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Shelf Seabed: Sand wave fields,,
+UKNCMPA019,North-west Orkney,NCMPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Shelf Seabed: Sediment wave fields,,
+UKNCMPA026,Norwegian Boundary Sediment Plain,NCMPA,Scotland offshore,Northern North Sea,species,Low or limited mobility species,,Arctica islandica,Ocean quahog,
+UKMCZ0049,Offshore Brighton,MCZ - Secretary of State,England offshore,Eastern Channel,habitat,Broad-scale habitat,A4.1,High energy circalittoral rock,,
+UKMCZ0049,Offshore Brighton,MCZ - Secretary of State,England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0049,Offshore Brighton,MCZ - Secretary of State,England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0044,Offshore Overfalls,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,geology,Geological or geomorphological feature of interest,G1,English Channel Outburst Flood Features (Quaternary fluvio-glacial erosion features),,
+UKMCZ0044,Offshore Overfalls,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0044,Offshore Overfalls,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0044,Offshore Overfalls,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0081,Orford Inshore,MCZ - Secretary of State,England inshore & England offshore,Southern North Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Annex I (species),,Sterna paradisaea,Arctic tern,reproducing
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Fratercula arctica,Atlantic puffin,reproducing
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Melanitta nigra,Black (common) scoter,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Larus ridibundus,Black-headed gull,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Rissa tridactyla,Black-legged kittiwake,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Rissa tridactyla,Black-legged kittiwake,reproducing
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Somateria mollissima,Common eider,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Bucephala clangula,Common goldeneye,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Uria aalge,Common guillemot,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Uria aalge,Common guillemot,reproducing
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Larus canus,Common gull,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Annex I (species),,Sterna hirundo,Common tern,reproducing
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Phalacrocorax aristotelis,European shag,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Phalacrocorax aristotelis,European shag,reproducing
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Larus argentatus,Herring gull,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Larus argentatus,Herring gull,reproducing
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Annex I (species),,Larus minutus,Little gull,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Clangula hyemalis,Long-tailed duck,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Puffinus puffinus,Manx shearwater,reproducing
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Morus bassanus,Northern gannet,reproducing
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Alca torda,Razorbill,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Mergus serrator,Red-breasted merganser,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Annex I (species),,Gavia stellata,Red-throated diver,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Annex I (species),,Podiceps auritus,Slavonian grebe,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,species,Regularly occurring migratory species,,Melanitta fusca,Velvet scoter,wintering
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,assemblage,Regularly occurring migratory species,,Waterbird assemblage,,
+UK9020316,Outer Firth of Forth and St Andrews Bay Complex,SPA,Scotland inshore & Scotland offshore,Northern North Sea,assemblage,Regularly occurring migratory species,,Seabird assemblage,,
+UK9020309,Outer Thames Estuary,SPA,England inshore & England offshore,Southern North Sea,species,Annex I (species),,Gavia stellata,Red-throated diver,wintering
+UK9020309,Outer Thames Estuary,SPA,England inshore & England offshore,Southern North Sea,species,Annex I (species),,Sterna albifrons,Little tern,reproducing
+UK9020309,Outer Thames Estuary,SPA,England inshore & England offshore,Southern North Sea,species,Annex I (species),,Sterna hirundo,Common tern,reproducing
+UK0030379,Pisces Reef Complex,SAC,Northern Ireland offshore,Irish Sea,habitat,Annex I habitat,1170,Reefs,,
+UK0030385,Pobie Bank Reef,SAC,Scotland inshore & Scotland offshore,Northern North Sea,habitat,Annex I habitat,1170,Reefs,,
+UKMCZ0086,Queenie Corner,MCZ - Secretary of State,Northern Ireland offshore,Irish Sea,habitat,FOCI habitat,HOCI_18,Sea-pen and burrowing megafauna communities,,
+UKMCZ0086,Queenie Corner,MCZ - Secretary of State,Northern Ireland offshore,Irish Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UK0030354,Scanner Pockmark,SAC,Scotland offshore,Northern North Sea,habitat,Annex I habitat,1180,Submarine structures made by leaking gases,,
+UK9020331,Seas off Foula,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Stercorarius parasiticus,Arctic Skua,reproducing
+UK9020331,Seas off Foula,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Fratercula arctica,Atlantic puffin,reproducing
+UK9020331,Seas off Foula,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Uria aalge,Common guillemot,reproducing
+UK9020331,Seas off Foula,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Uria aalge,Common guillemot,wintering
+UK9020331,Seas off Foula,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Stercorarius skua,Great skua,reproducing
+UK9020331,Seas off Foula,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Stercorarius skua,Great skua,wintering
+UK9020331,Seas off Foula,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Fulmarus glacialis,Northern fulmar,reproducing
+UK9020331,Seas off Foula,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Fulmarus glacialis,Northern fulmar,wintering
+UK9020331,Seas off Foula,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,assemblage,Regularly occurring migratory species,,Seabird assemblage,,
+UK9020332,Seas off St Kilda,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Fratercula arctica,Atlantic puffin,reproducing
+UK9020332,Seas off St Kilda,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Uria aalge,Common guillemot,reproducing
+UK9020332,Seas off St Kilda,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Annex I (species),,Hydrobates pelagicus,European storm-petrel,reproducing
+UK9020332,Seas off St Kilda,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Fulmarus glacialis,Northern fulmar,reproducing
+UK9020332,Seas off St Kilda,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,species,Regularly occurring migratory species,,Morus bassanus,Northern gannet,reproducing
+UK9020332,Seas off St Kilda,SPA,Scotland inshore & Scotland offshore,Scottish Continental Shelf,assemblage,Regularly occurring migratory species,,Seabird assemblage,,
+UK9014051,"Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro",SPA,Wales inshore & Wales offshore,Western Channel and Celtic Sea,assemblage,Regularly occurring migratory species,,Seabird assemblage,Seabird assemblage,
+UK9014051,"Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro",SPA,Wales inshore & Wales offshore,Western Channel and Celtic Sea,species,Annex I (species),,Hydrobates pelagicus,European storm-petrel,reproducing
+UK9014051,"Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro",SPA,Wales inshore & Wales offshore,Western Channel and Celtic Sea,species,Regularly occurring migratory species,,Fratercula arctica,Atlantic puffin,reproducing
+UK9014051,"Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro",SPA,Wales inshore & Wales offshore,Western Channel and Celtic Sea,species,Regularly occurring migratory species,,Larus fuscus,Lesser black-backed gull,reproducing
+UK9014051,"Skomer, Skokholm and the Seas off Pembrokeshire / Sgomer, Sgogwm a Moroedd Penfro",SPA,Wales inshore & Wales offshore,Western Channel and Celtic Sea,species,Regularly occurring migratory species,,Puffinus puffinus,Manx shearwater,reproducing
+UK0030386,Solan Bank Reef,SAC,Scotland inshore & Scotland offshore,Scottish Continental Shelf,habitat,Annex I habitat,1170,Reefs,,
+UKMCZ0022,South Dorset,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A4.2,Moderate energy circalittoral rock,,
+UKMCZ0022,South Dorset,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0022,South Dorset,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,FOCI habitat,HOCI_20,Subtidal chalk,,
+UKMCZ0022,South Dorset,MCZ - Secretary of State,England inshore & England offshore,Eastern Channel,habitat,Broad-scale habitat,A4.1,High energy circalittoral rock,,
+UKMCZ0087,South of Celtic Deep,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A4.2,Moderate energy circalittoral rock,,
+UKMCZ0087,South of Celtic Deep,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0087,South of Celtic Deep,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0087,South of Celtic Deep,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0082,South of the Isles of Scilly,MCZ - Secretary of State,England inshore & England offshore,Western Channel and Celtic Sea,species,FOCI species,SOCI_5,Atrina fragilis,Fan mussel,
+UKMCZ0082,South of the Isles of Scilly,MCZ - Secretary of State,England inshore & England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat mosaic,A5.1/A5.4,Subtidal coarse sediment and subtidal mixed sediments mosaic,,
+UKMCZ0082,South of the Isles of Scilly,MCZ - Secretary of State,England inshore & England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0088,South Rigg,MCZ - Secretary of State,Northern Ireland offshore,Irish Sea,habitat,Broad-scale habitat,A4.2,Moderate energy circalittoral rock,,
+UKMCZ0088,South Rigg,MCZ - Secretary of State,Northern Ireland offshore,Irish Sea,habitat,FOCI habitat,HOCI_18,Sea-pen and burrowing megafauna communities,,
+UKMCZ0088,South Rigg,MCZ - Secretary of State,Northern Ireland offshore,Irish Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0088,South Rigg,MCZ - Secretary of State,Northern Ireland offshore,Irish Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0088,South Rigg,MCZ - Secretary of State,Northern Ireland offshore,Irish Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0088,South Rigg,MCZ - Secretary of State,Northern Ireland offshore,Irish Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0083,South West Approaches to the Bristol Channel,MCZ - Secretary of State,England inshore & England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0083,South West Approaches to the Bristol Channel,MCZ - Secretary of State,England inshore & England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0089,South West Deeps (East),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,geology,Geological or geomorphological feature of interest,G8,Celtic Sea Relict Sandbanks,,
+UKMCZ0089,South West Deeps (East),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A6,Deep-sea bed,,
+UKMCZ0089,South West Deeps (East),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0089,South West Deeps (East),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UK0030395,Southern North Sea,SAC,England inshore & England offshore,Eastern Channel & Northern North Sea & Southern North Sea,species,Annex II species,1351,Phocoena phocoena,Harbour porpoise,
+UKMCZ0025,South-West Deeps (West),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,geology,Geological or geomorphological feature of interest,G8,Celtic Sea Relict Sandbanks,,
+UKMCZ0025,South-West Deeps (West),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0025,South-West Deeps (West),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0025,South-West Deeps (West),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0025,South-West Deeps (West),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0025,South-West Deeps (West),MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,species,FOCI species,SOCI_5,Atrina fragilis,Fan mussel,
+UK0030359,Stanton Banks,SAC,Scotland offshore,Minches and Western Scotland & Scottish Continental Shelf,habitat,Annex I habitat,1170,Reefs,,
+UKMCZ0026,Swallow Sand,MCZ - Secretary of State,England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0026,Swallow Sand,MCZ - Secretary of State,England offshore,Northern North Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0026,Swallow Sand,MCZ - Secretary of State,England offshore,Northern North Sea,geology,Geological or geomorphological feature of interest,G15,North Sea glacial tunnel valleys: Swallow Hole,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Cenozoic Structures of the Atlantic Margin: Continental slope,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Cenozoic Structures of the Atlantic Margin: Hebrides Terrace Seamount,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Scour moat,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Iceberg ploughmark fields,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Burrowed mud,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Offshore deep sea muds,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Offshore subtidal sands and gravels,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Seamount communities,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Large-scale feature,,Continental slope,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Large-scale feature,,Seamounts,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,species,Mobile species,,Hoplostethus atlanticus,Orange roughy,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Prograding wedges,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Submarine Mass Movement: Continental slope turbidite canyons,,
+UKNCMPA028,The Barra Fan and Hebrides Terrace Seamount,NCMPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Submarine Mass Movement: Slide deposits,,
+UKMCZ0027,The Canyons,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A6,Deep-sea bed,,
+UKMCZ0027,The Canyons,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,FOCI habitat,HOCI_2,Cold-water coral reefs,,
+UKMCZ0027,The Canyons,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,FOCI habitat,HOCI_3,Coral gardens,,
+UKMCZ0027,The Canyons,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,FOCI habitat,HOCI_18,Sea-pen and burrowing megafauna communities,,
+UKNCMPA029,Turbot Bank,NCMPA,Scotland offshore,Northern North Sea,species,Mobile species,,Ammodytes spp.,Sandeels,
+UKMCZ0090,West of Copeland,MCZ - Secretary of State,England offshore,Irish Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0090,West of Copeland,MCZ - Secretary of State,England offshore,Irish Sea,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKMCZ0090,West of Copeland,MCZ - Secretary of State,England offshore,Irish Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Cenozoic Structures of the Atlantic Margin: Anton Dohrn Seamount,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Cenozoic Structures of the Atlantic Margin: Rosemary Bank Seamount,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Cliff,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Large bank (Palaeogene igneous centre),,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Bioherm reefs,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Erosional scour field,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Scour moat,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Sediment drifts,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Sediment wave fields,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Marine Geomorphology of the Scottish Deep Ocean Seabed: Small scale ridges,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Parasitic cones,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Iceberg ploughmark fields,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Burrowed mud,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Coral gardens,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,"Cold-water coral reefs (including Lophelia
+pertusa reefs)",,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Deep sea sponge aggregations,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Offshore deep sea muds,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Offshore subtidal sands and gravels,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Habitat,,Seamount communities,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Large-scale feature,,Seamounts,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,species,Mobile species,,Molva dypterygia,Blue ling,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,species,Mobile species,,Centrophorus squamosus,Leafscale gulper shark,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,species,Mobile species,,Centrophorus granulosus,Gulper shark,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,species,Mobile species,,Hoplostethus atlanticus,Orange roughy,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,species,Mobile species,,Centroscymnus coelolepis,Portuguese dogfish,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,species,Mobile species,,Coryphaenoides rupestris,Roundnose grenadier,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Ice-distal and glacimarine facies,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Ice-proximal and ice-contact facies,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Prograding wedges,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Quaternary of Scotland: Sub-glacial tills,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Submarine Mass Movement: Continental slope turbidite canyons,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Submarine Mass Movement: Slide deposits,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Submarine Mass Movement: Slide scars,,
+UKMPA0001,West of Scotland ,MPA,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,geology,Geodiversity,,Turbidite accumulation,,
+UKMCZ0045,West of Walney,MCZ - Secretary of State,England inshore & England offshore,Irish Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UKMCZ0045,West of Walney,MCZ - Secretary of State,England inshore & England offshore,Irish Sea,habitat,Broad-scale habitat,A5.3,Subtidal mud,,
+UKMCZ0045,West of Walney,MCZ - Secretary of State,England inshore & England offshore,Irish Sea,habitat,FOCI habitat,HOCI_18,Sea-pen and burrowing megafauna communities,,
+UKMCZ0091,West of Wight-Barfleur,MCZ - Secretary of State,England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0091,West of Wight-Barfleur,MCZ - Secretary of State,England offshore,Eastern Channel,habitat,Broad-scale habitat,A5.4,Subtidal mixed sediments,,
+UKNCMPA030,West Shetland Shelf,NCMPA,Scotland offshore,Scottish Continental Shelf,habitat,Habitat,,Offshore subtidal sands and gravels,,
+UK0030397,West Wales Marine / Gorllewin Cymru Forol,SAC,Wales inshore & Wales offshore,Irish Sea & Western Channel and Celtic Sea,species,Annex II species,1351,Phocoena phocoena,Harbour porpoise,
+UKMCZ0050,Western Channel,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.1,Subtidal coarse sediment,,
+UKMCZ0050,Western Channel,MCZ - Secretary of State,England offshore,Western Channel and Celtic Sea,habitat,Broad-scale habitat,A5.2,Subtidal sand,,
+UK0030380,Wight-Barfleur Reef,SAC,England offshore,Eastern Channel,habitat,Annex I habitat,1170,Reefs,,
+UK0030355,Wyville Thomson Ridge,SAC,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,habitat,Annex I habitat,1170,Reefs,,
+UKEHPMA002,Dolphin Head,HPMA (MCZ),England offshore,Eastern Channel,ecosystem,Marine ecosystem,HPMA_F1,The marine ecosystem of the area,,
+UKEHPMA003,North East of Farnes Deep,HPMA (MCZ),England offshore,Northern North Sea,ecosystem,Marine ecosystem,HPMA_F1,The marine ecosystem of the area,,

@@ -13,104 +13,136 @@ const mpaLayer = L.layerGroup().addTo(map);
 // Function to load CSV data
 async function loadCSVData() {
     try {
-        console.log('Loading protected features CSV...');
-        // Load protected features
-        const featuresResponse = await fetch('protected_features.csv');
-        const featuresText = await featuresResponse.text();
-        const featuresData = Papa.parse(featuresText, { header: true }).data;
-        console.log('Protected features loaded:', featuresData.length, 'items');
-
-        // Add markers for protected features
-        featuresData.forEach(feature => {
-            if (feature.latitude && feature.longitude) {
-                const marker = L.circleMarker([parseFloat(feature.latitude), parseFloat(feature.longitude)], {
-                    color: feature.status === 'Designated' ? 'green' : 'orange',
-                    fillColor: feature.status === 'Designated' ? 'lightgreen' : 'orange',
-                    fillOpacity: 0.7,
-                    radius: 8
-                });
-
-                marker.addTo(protectedFeaturesLayer).bindPopup(`
-                    <b>${feature.name}</b><br>
-                    <strong>Type:</strong> ${feature.type}<br>
-                    <strong>Status:</strong> ${feature.status}<br>
-                    <strong>Description:</strong> ${feature.description}<br>
-                    <strong>Protection Reason:</strong> ${feature.protection_reason}<br>
-                    <strong>Designation Date:</strong> ${feature.designation_date}
-                `);
-            }
-        });
-
+        // Load and parse UK offshore MPA CSV first (to get coordinates)
         console.log('Loading MPA CSV...');
-        // Load UK offshore MPA data
         const mpaResponse = await fetch('uk_offshore_mpa.csv');
         const mpaText = await mpaResponse.text();
-        const mpaData = Papa.parse(mpaText, { header: true }).data;
-        console.log('MPA data loaded:', mpaData.length, 'items');
-
-        // Add markers for MPAs
-        let processedCount = 0;
-        let skippedCount = 0;
-
-        mpaData.forEach((mpa, index) => {
-            let lat, lng, name, type, status, agency, siteName, area, designationDate;
-
-            // Check if this is the new format (starts with UK code)
-            if (mpa.name && mpa.name.startsWith('UK')) {
-                // New format: UK0030317,Darwin Mounds,SAC,Scotland offshore,Atlantic North-West Approaches & Scottish Continental Shelf,137726,-7.2167,59.7583,01-08-2008,JNCC,555536199
-                lng = parseFloat(mpa.longitude); // Column 7: longitude
-                lat = parseFloat(mpa.latitude);  // Column 8: latitude
-                name = mpa.name; // Column 1: UK code
-                siteName = mpa.type; // Column 2: actual site name
-                type = mpa.status; // Column 3: SAC/MCZ etc
-                status = 'Designated'; // Assume designated
-                agency = mpa.agency; // Column 10: JNCC
-                area = mpa.area_km2; // Column 6: area
-                designationDate = mpa.designation_year; // Column 9: date
+        const mpaLines = mpaText.split('\n');
+        
+        const mpaCoordinates = {}; // Map of site code to coordinates
+        let mpaCount = 0;
+        
+        // Skip header, process all data rows
+        for (let i = 1; i < mpaLines.length; i++) {
+            const line = mpaLines[i].trim();
+            if (!line) continue;
+            
+            let parts = [];
+            
+            // Detect delimiter: comma or tab
+            if (line.includes('\t')) {
+                parts = line.split('\t').map(p => p.trim());
             } else {
-                // Original format
-                lat = parseFloat(mpa.latitude);
-                lng = parseFloat(mpa.longitude);
-                name = mpa.name;
-                type = mpa.type;
-                status = mpa.status;
-                agency = mpa.agency;
-                siteName = mpa.site_name;
-                area = mpa.area_km2;
-                designationDate = mpa.designation_year;
+                parts = line.split(',').map(p => p.trim());
             }
+            
+            if (parts.length >= 2) {
+                try {
+                    const name = parts[0];
+                    let type = parts[1] || '';
+                    let lat = null;
+                    let lng = null;
+                    
+                    // Look for coordinates - search for two consecutive valid numbers
+                    // that form a valid lat/lng pair
+                    for (let j = 0; j < parts.length - 1; j++) {
+                        const val1 = parseFloat(parts[j]);
+                        const val2 = parseFloat(parts[j + 1]);
+                        
+                        if (!isNaN(val1) && !isNaN(val2) &&
+                            val1 >= -90 && val1 <= 90 &&
+                            val2 >= -180 && val2 <= 180) {
+                            lat = val1;
+                            lng = val2;
+                            break;
+                        }
+                    }
+                    
+                    if (lat !== null && lng !== null) {
+                        // Store coordinates by site code for later lookup
+                        mpaCoordinates[name] = { lat, lng, type };
+                        
+                        const marker = L.marker([lat, lng], {
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+                                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                iconSize: [25, 41],
+                                iconAnchor: [12, 41],
+                                popupAnchor: [1, -34],
+                                shadowSize: [41, 41]
+                            })
+                        });
 
-            if (lat && lng && !isNaN(lat) && !isNaN(lng)) {
-                const marker = L.marker([lat, lng], {
-                    icon: L.icon({
-                        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
-                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                        iconSize: [25, 41],
-                        iconAnchor: [12, 41],
-                        popupAnchor: [1, -34],
-                        shadowSize: [41, 41]
-                    })
-                });
-
-                marker.addTo(mpaLayer).bindPopup(`
-                    <b>${siteName || name}</b><br>
-                    <strong>Site Code:</strong> ${name}<br>
-                    <strong>Type:</strong> ${type}<br>
-                    <strong>Status:</strong> ${status}<br>
-                    <strong>Agency:</strong> ${agency}<br>
-                    <strong>Area:</strong> ${area} km²<br>
-                    <strong>Designated:</strong> ${designationDate}
-                `);
-                processedCount++;
-            } else {
-                console.log(`Skipped row ${index + 1}:`, mpa.name, 'lat:', lat, 'lng:', lng, 'isNaN(lat):', isNaN(lat), 'isNaN(lng):', isNaN(lng));
-                skippedCount++;
+                        marker.addTo(mpaLayer).bindPopup(`
+                            <b>${name}</b><br>
+                            <strong>Type:</strong> ${type}<br>
+                            <em>UK Offshore MPA</em>
+                        `);
+                        mpaCount++;
+                    }
+                } catch (e) {
+                    // Skip malformed rows
+                }
             }
-        });
+        }
+        console.log('MPAs added to map:', mpaCount);
 
-        console.log(`MPA processing complete: ${processedCount} processed, ${skippedCount} skipped`);
+        // Load and parse protected features CSV
+        console.log('Loading protected features CSV...');
+        const featuresResponse = await fetch('protected_features.csv');
+        const featuresText = await featuresResponse.text();
+        const featuresLines = featuresText.split('\n');
+        
+        let featuresCount = 0;
+        
+        // Skip header, process all data rows
+        for (let i = 1; i < featuresLines.length; i++) {
+            const line = featuresLines[i].trim();
+            if (!line) continue;
+            
+            let parts = [];
+            
+            // Parse as comma-separated
+            if (line.includes(',')) {
+                parts = line.split(',').map(p => p.trim());
+            } else if (line.includes('\t')) {
+                parts = line.split('\t').map(p => p.trim());
+            }
+            
+            if (parts.length >= 2) {
+                try {
+                    const siteCode = parts[0]; // e.g., UK0030387
+                    const siteName = parts[1]; // e.g., Anton Dohrn Seamount
+                    const status = parts[2] || '';
+                    const featureType = parts[5] || '';
+                    const featureName = parts[8] || '';
+                    
+                    // Look up coordinates using site code
+                    if (mpaCoordinates[siteCode]) {
+                        const coords = mpaCoordinates[siteCode];
+                        const marker = L.circleMarker([coords.lat, coords.lng], {
+                            color: 'green',
+                            fillColor: 'lightgreen',
+                            fillOpacity: 0.7,
+                            radius: 6
+                        });
 
-        console.log('CSV data loaded successfully');
+                        marker.addTo(protectedFeaturesLayer).bindPopup(`
+                            <b>${siteName}</b><br>
+                            <strong>Site Code:</strong> ${siteCode}<br>
+                            <strong>Status:</strong> ${status}<br>
+                            <strong>Feature:</strong> ${featureName}<br>
+                            <em>Protected Feature</em>
+                        `);
+                        featuresCount++;
+                    }
+                } catch (e) {
+                    // Skip malformed rows
+                }
+            }
+        }
+        console.log('Protected features added to map:', featuresCount);
+        console.log('All CSV data loaded successfully');
 
     } catch (error) {
         console.error('Error loading CSV data:', error);
