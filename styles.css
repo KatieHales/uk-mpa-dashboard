@@ -9,6 +9,13 @@ body {
     width: 100vw;
 }
 
+/* Legend styling */
+.info.legend {
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
 /* Custom styles for map features */
 .leaflet-popup-content-wrapper {
     border-radius: 8px;

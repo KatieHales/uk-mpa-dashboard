@@ -42,6 +42,7 @@ async function loadCSVData() {
                     let type = parts[2] || '';
                     const lng = parseFloat(parts[6]); // Longitude
                     const lat = parseFloat(parts[7]); // Latitude
+                    const agency = parts[9] || ''; // Agency
                     
                     if (!isNaN(lat) && !isNaN(lng) &&
                         lat >= -90 && lat <= 90 &&
@@ -64,6 +65,7 @@ async function loadCSVData() {
                         marker.addTo(mpaLayer).bindPopup(`
                             <b>${name}</b><br>
                             <strong>Type:</strong> ${type}<br>
+                            <strong>Agency:</strong> ${agency}<br>
                             <em>UK Offshore MPA</em>
                         `);
                         mpaCount++;
@@ -150,6 +152,29 @@ const overlayMaps = {
 };
 
 L.control.layers(null, overlayMaps).addTo(map);
+
+// Add legend control
+const legend = L.control({ position: 'bottomright' });
+
+legend.onAdd = function (map) {
+    const div = L.DomUtil.create('div', 'info legend');
+    div.innerHTML = `
+        <div style="background: white; padding: 10px; border: 2px solid rgba(0,0,0,0.2); border-radius: 5px;">
+            <h4 style="margin: 0 0 10px 0; font-size: 14px;">Map Legend</h4>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <div style="width: 20px; height: 20px; background: url('https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png') no-repeat center; background-size: contain; margin-right: 8px;"></div>
+                <span style="font-size: 12px;">UK Offshore MPA Sites</span>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <div style="width: 12px; height: 12px; border-radius: 50%; background: green; border: 2px solid lightgreen; margin-right: 8px;"></div>
+                <span style="font-size: 12px;">Protected Features</span>
+            </div>
+        </div>
+    `;
+    return div;
+};
+
+legend.addTo(map);
 
 // Load the data when the page loads
 loadCSVData();
