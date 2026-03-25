@@ -16,6 +16,70 @@ body {
     border-radius: 5px;
 }
 
+/* Windmill icon style */
+.windmill-icon {
+    width: 34px;
+    height: 34px;
+}
+
+.windmill {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #0099cc;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.windmill::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4px;
+    height: 14px;
+    background: #333;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.windmill .blades {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    transform: translate(-50%, -50%);
+    animation: windmill-spin 2s linear infinite;
+}
+
+.windmill .blades::before,
+.windmill .blades::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 2px;
+    height: 18px;
+    background: #0077b3;
+    transform-origin: center center;
+}
+
+.windmill .blades::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.windmill .blades::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@keyframes windmill-spin {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+
 /* Custom styles for map features */
 .leaflet-popup-content-wrapper {
     border-radius: 8px;

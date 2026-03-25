@@ -9,6 +9,85 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Create layer groups for different data types
 const protectedFeaturesLayer = L.layerGroup().addTo(map);
 const mpaLayer = L.layerGroup().addTo(map);
+const windFarmsLayer = L.layerGroup().addTo(map);
+
+// Spinning windmill icon for offshore wind farms
+const windmillIcon = L.divIcon({
+    className: 'windmill-icon',
+    html: '<div class="windmill"><div class="blades"></div></div>',
+    iconSize: [34, 34],
+    iconAnchor: [17, 17],
+    popupAnchor: [0, -20]
+});
+
+// DMS (degrees/minutes/seconds) parser for coordinate text such as "53°59′00″N 3°17′00″W"
+function parseDMS(value) {
+    if (!value || typeof value !== 'string') return null;
+    const m = value.trim().match(/([0-9]+(?:\.[0-9]+)?)°(?:([0-9]+)′(?:([0-9]+(?:\.[0-9]+)?)″)?)?\s*([NSEW])/i);
+    if (!m) return null;
+    let deg = parseFloat(m[1]);
+    const min = m[2] ? parseFloat(m[2]) : 0;
+    const sec = m[3] ? parseFloat(m[3]) : 0;
+    const dir = m[4].toUpperCase();
+    let dec = deg + min / 60 + sec / 3600;
+    if (dir === 'S' || dir === 'W') dec *= -1;
+    return dec;
+}
+
+function parseLocationToLatLng(location) {
+    if (!location || typeof location !== 'string') return null;
+    // Handle formats like "58.1°N 2.8°W" and "53°59′00″N 3°17′00″W"
+    const parts = location.split(/[,;\s]+/).filter(p => p.trim());
+    if (parts.length < 2) return null;
+
+    let lat = null;
+    let lng = null;
+
+    for (const token of parts) {
+        const maybeLat = parseDMS(token);
+        if (maybeLat !== null) {
+            if (/N|S/i.test(token)) lat = maybeLat;
+            if (/E|W/i.test(token)) lng = maybeLat;
+        }
+    }
+
+    if (lat !== null && lng !== null) return { lat, lng };
+
+    // fallback: if we have two numeric values and no direction
+    const maybeNumbers = location.match(/-?\d+(?:\.\d+)?/g);
+    if (maybeNumbers && maybeNumbers.length >= 2) {
+        const a = parseFloat(maybeNumbers[0]);
+        const b = parseFloat(maybeNumbers[1]);
+        if (a >= -90 && a <= 90 && b >= -180 && b <= 180) return { lat: a, lng: b };
+        if (b >= -90 && b <= 90 && a >= -180 && a <= 180) return { lat: b, lng: a };
+    }
+
+    return null;
+}
+
+function parseCSVLine(line) {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (ch === '"') {
+            if (inQuotes && line[i + 1] === '"') {
+                current += '"';
+                i++;
+            } else {
+                inQuotes = !inQuotes;
+            }
+        } else if (ch === ',' && !inQuotes) {
+            result.push(current);
+            current = '';
+        } else {
+            current += ch;
+        }
+    }
+    result.push(current);
+    return result.map(cell => cell.trim());
+}
 
 // Function to load CSV data
 async function loadCSVData() {
@@ -138,6 +217,54 @@ async function loadCSVData() {
             }
         }
         console.log('Protected features added to map:', featuresCount);
+
+        // Load and parse offshore wind farm CSV
+        console.log('Loading offshore wind farms CSV...');
+        const windResponse = await fetch('offshore_wind_farms_uk.csv');
+        const windText = await windResponse.text();
+        const windLines = windText.split('\n');
+
+        let windCount = 0;
+        const windHeader = windLines[0] ? parseCSVLine(windLines[0]).map(h => h.trim().toLowerCase()) : [];
+        const locIdx = windHeader.findIndex(h => h.includes('location'));
+        const nameIdx = windHeader.findIndex(h => h.includes('name'));
+        const capacityIdx = windHeader.findIndex(h => h.includes('capacity') && !h.includes('factor'));
+        const turbineIdx = windHeader.findIndex(h => h.includes('turbine') && !h.includes('model'));
+        const buildCostIdx = windHeader.findIndex(h => h.includes('build') && h.includes('cost'));
+        const ownerIdx = windHeader.findIndex(h => h.includes('owner'));
+
+        for (let i = 1; i < windLines.length; i++) {
+            const line = windLines[i].trim();
+            if (!line) continue;
+
+            const parts = parseCSVLine(line);
+            if (locIdx < 0 || parts.length <= locIdx) continue;
+
+            const location = parts[locIdx];
+            const coords = parseLocationToLatLng(location);
+            if (!coords) continue;
+
+            const name = (nameIdx >= 0 && parts[nameIdx]) ? parts[nameIdx] : `Wind farm #${i}`;
+            const capacity = (capacityIdx >= 0 && parts[capacityIdx]) ? parts[capacityIdx] : 'Unknown';
+            const turbine = (turbineIdx >= 0 && parts[turbineIdx]) ? parts[turbineIdx] : 'Unknown';
+            const buildCost = (buildCostIdx >= 0 && parts[buildCostIdx]) ? parts[buildCostIdx] : 'Unknown';
+            const owner = (ownerIdx >= 0 && parts[ownerIdx]) ? parts[ownerIdx] : 'Unknown';
+
+            const windMarker = L.marker([coords.lat, coords.lng], {
+                icon: windmillIcon
+            });
+
+            windMarker.addTo(windFarmsLayer).bindPopup(`
+                <b>${name}</b><br>
+                <strong>Capacity:</strong> ${capacity} MW<br>
+                <strong>Turbine Manufacturer:</strong> ${turbine}<br>
+                <strong>Build Cost:</strong> ${buildCost}<br>
+                <strong>Owner:</strong> ${owner}<br>
+                <strong>Location:</strong> ${location}
+            `);
+            windCount++;
+        }
+        console.log('Offshore wind farms added to map:', windCount);
         console.log('All CSV data loaded successfully');
 
     } catch (error) {
@@ -148,7 +275,8 @@ async function loadCSVData() {
 // Add layer control
 const overlayMaps = {
     "Protected Features": protectedFeaturesLayer,
-    "UK Offshore MPAs": mpaLayer
+    "UK Offshore MPAs": mpaLayer,
+    "Offshore Wind Farms": windFarmsLayer
 };
 
 L.control.layers(null, overlayMaps).addTo(map);
@@ -168,6 +296,10 @@ legend.onAdd = function (map) {
             <div style="display: flex; align-items: center;">
                 <div style="width: 12px; height: 12px; border-radius: 50%; background: green; border: 2px solid lightgreen; margin-right: 8px;"></div>
                 <span style="font-size: 12px;">Protected Features</span>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 5px;">
+                <span style="font-size: 18px; margin-right: 8px;">🌬️</span>
+                <span style="font-size: 12px;">Offshore Wind Farms</span>
             </div>
         </div>
     `;
